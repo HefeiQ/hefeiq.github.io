@@ -92,6 +92,7 @@ blockquote {
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid $grey-color-light;
+  border-top: 5px solid $blue-color;
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
