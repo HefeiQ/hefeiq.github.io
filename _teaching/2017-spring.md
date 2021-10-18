@@ -1,7 +1,7 @@
 ---
 layout: default
-course_name: Big Data Analytics
-course_number: CS 670
+course_name: Science Gateway Seminar
+course_number: CS 187
 semester: 2017 spring
 role: Mentor
 ---
