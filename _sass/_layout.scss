@@ -38,6 +38,12 @@
 }
 // TODO: redefine content layout.
 
+.button-block {
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid;
+}
 
 /******************************************************************************
  * Publications

@@ -102,8 +102,7 @@ collections:
     output: true
     permalink: /tech-writing/:path/
   teaching:
-    output: true
-    permalink: /teaching/:path/
+    
 
 news_limit: 5
 
