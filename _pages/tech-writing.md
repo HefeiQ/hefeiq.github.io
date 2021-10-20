@@ -1,8 +1,8 @@
 ---
 layout: page
-title: tech-writing
+title: tech-writing seminar
 permalink: /tech-writing/
-description: Scientific writing example sentences in papers or articles.
+description: A seminar for students to share good sentences in papers or articles, practice and improve scientific writing skills.
 nav: true
 horizontal: true
 ---
