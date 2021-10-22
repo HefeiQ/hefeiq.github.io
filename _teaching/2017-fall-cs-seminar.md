@@ -1,6 +1,6 @@
 ---
 layout: default
-course_name: Artificial intelligence
+course_name: CS Seminar
 course_number: CS Seminar
 semester: 2017 fall 
 role: Lecturer
