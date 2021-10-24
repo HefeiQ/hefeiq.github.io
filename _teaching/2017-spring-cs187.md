@@ -3,6 +3,7 @@ layout: default
 course_name: Science Gateway Seminar
 course_number: CS 187
 semester: 2017 spring
+semester_index: 2017_1
 role: Mentor
 ---
 A freshman seminar course, in the College of Science and Mathematics, is organized along a theme of inquiry-based learning for students and faculty. This course is taught by Prof. [Wei Ding](https://www.cs.umb.edu/~ding). 
