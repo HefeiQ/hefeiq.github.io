@@ -2,16 +2,16 @@
 layout: page
 title: Interpretable Spatio-Temporal Modeling
 description: Identify the main sub-feature sets with predictive ability and interpretability from the original spatio-temporal space via causal analysis.
-img: /assets/img/galaxy.jpg
+img: /assets/img/spatio_temporal_modeling/galaxy.jpg
 importance: 2
 redirect: 
-category: work
+category: research
 ---
 Given a large-scale Spatio-temporal database, how to effectively and efficiently identify strongly related features from a mass of features and remove the irrelevant or less important features that do not contribute much to the target feature to achieve better accuracy for predictive models is a critical and challenging issue. The optimal sub-feature-set that contains all the valuable information is called Markov Boundary. Unfortunately, the existing feature selection methods often focus on identifying one Markov Boundary, which is always not true in real-world data. In our work, we evaluate the existing state-of-the-art streaming feature selection methods on meteorological data to identify the precursors to heavy precipitation event clusters and then design a new multiple Markov-boundaries-based predictive models for long lead rainfall forecasting.
 
 ##### **Streaming feature selection on large-scale Spatio-temporal database**
 <div class="post">
-    <div class="profile float-right w-75">
+    <div class="profile float-left w-75">
         <img class="img-fluid" src="{{ 'spatio_temporal_modeling/icnsc2016.jpg' | prepend: '/assets/img/' | relative_url }}"/>
     </div>
 </div>
