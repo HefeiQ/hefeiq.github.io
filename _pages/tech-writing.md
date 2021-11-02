@@ -3,7 +3,7 @@ layout: page
 title: tech-writing seminar
 permalink: /tech-writing/
 description: A seminar for students to share good sentences in papers or articles, practice and improve scientific writing skills.
-nav: true
+nav: false
 horizontal: true
 ---
 <div class="projects">

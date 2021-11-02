@@ -1,12 +1,11 @@
 ---
 layout: page
-title: submenus
-nav: false
-dropdown: false
+title: services
+nav: true
+dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
-    - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: <a class="nav-link" href="https://kdl-umb.github.io"
+              target="_blank">KDLab</a>
+    - title: <a class="nav-link" href="https://ai-umb.github.io" target="_blank">AI-Association</a>
+    - title: <a class="nav-link" href="https://kdl-umb.github.io/tech-writing" target="_blank">Tech-writing Seminar</a>
 ---
