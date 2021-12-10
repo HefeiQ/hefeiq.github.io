@@ -3,6 +3,8 @@ layout: page
 title: Crime Hot Spot Forecasting
 description: A recurrent neural network to forecast crime hot spots.
 img: /assets/img/crime/crime.jpg
+year: 2017
+collaborators: Yong Zhuang, Matthew Almeida, Melissa Morabito, and Wei Ding
 importance: 2
 category: research
 ---

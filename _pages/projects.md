@@ -24,26 +24,62 @@ horizontal: true
           </div>
         </div>
       {% else %}
-        <div class="grid">
-          {% for project in sorted_projects %}
-            {% include projects.html %}
-          {% endfor %}
+        {% for project in sorted_projects%}
+        <div class="card mt-3">
+            <div class="p-3">
+              <div class="row">
+                <div class="col-sm-2 text-left text-sm-right">
+                  <span class="badge font-weight-bold global-theme-block text-uppercase align-middle">
+                    <!-- {{ project.date}} -->
+                  </span>
+                </div>
+                <div class="col-sm-6">
+                  <h5 class="font-weight-bold">{{ project.title}}</h5>
+                  <h6 class="font-italic mt-2 mt-sm-0">Yong Zhuang, Matt, Wei Ding</h6>
+                  <article>
+                    {{ project.description }}
+                  </article>
+                </div>
+                <div class="col-sm-4">
+                  <img src="{{ project.img | relative_url }}" alt="project thumbnail">
+                </div>
+              </div>
+            </div>
         </div>
+        {% endfor %}
       {% endif %}
     {% endfor %}
 
   {% else %}
   <!-- Display projects without categories -->
-    {% assign sorted_projects = site.projects | sort: "importance" | reverse%}
+    {% assign sorted_projects = site.projects | sort: "year" | reverse%}
     <!-- Generate cards for each project -->
     {% if page.horizontal %}
-      <div class="container">
-        <div class="row row-cols-1">
-        {% for project in sorted_projects %}
-          {% include projects_horizontal.html %}
-        {% endfor %}
+        {% for project in sorted_projects%}
+        <a href="{{ project.url | relative_url }}">
+        <div class="card mt-3">
+            <div class="p-3">
+              <div class="row">
+                <div class="col-sm-2 text-left text-sm-left">
+                  <span class="badge font-weight-bold global-theme-block text-uppercase align-middle">
+                    {{ project.year}}
+                  </span>
+                </div>
+                <div class="col-sm-7">
+                  <h4 class="font-weight-bold">{{ project.title}}</h4>
+                  <h6 class="font-italic mt-2 mt-sm-0">{{project.collaborators}}</h6>
+                  <article>
+                    {{ project.description }}
+                  </article>
+                </div>
+                <div class="col-sm-3">
+                  <img src="{{ project.img | relative_url }}" alt="project thumbnail">
+                </div>
+              </div>
+            </div>
         </div>
-      </div>
+        </a>
+        {% endfor %}
     {% else %}
       <div class="grid">
         {% for project in sorted_projects %}

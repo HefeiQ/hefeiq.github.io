@@ -3,6 +3,8 @@ layout: page
 title: Deep symbolic regression
 description: using deep neural networks to estimate the underlying mathematical expressions describing a given dataset.
 img: /assets/img/symbolic_regression/dsr.jpg
+year: 2021
+collaborators: Yong Zhuang, Zihan Li, Shafiqul Islam, and Chen Ping
 importance: 3
 category: research
 ---

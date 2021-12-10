@@ -3,8 +3,10 @@ layout: page
 title: Interpretable Spatio-Temporal Modeling
 description: Identify the main sub-feature sets with predictive ability and interpretability from the original spatio-temporal space via causal analysis.
 img: /assets/img/spatio_temporal_modeling/galaxy.jpg
+year: 2018
+collaborators: Yong Zhuang, David L Small, Xin Shu, Kui Yu, Shafiqul Islam, and Wei Ding
 importance: 2
-redirect: 
+redirect:   
 category: research
 ---
 Given a large-scale Spatio-temporal database, effectively and efficiently identifying strongly related features and removing the irrelevant or less important features with respect to a target variable is a critical and challenging issue in many fields. The optimal sub-feature-set that contains all the valuable information is called the Markov Boundary. Unfortunately, the existing feature selection methods often focus on identifying a single Markov Boundary, when real-world data could have many feature subsets that are equally good boundaries. In our work, we studied the existing state-of-the-art streaming feature selection methods. We evaluated them on meteorological data to identify the precursors to heavy precipitation event clusters. We also designed a new multiple-Markov-boundary-based predictive model, Galaxy, for long lead rainfall forecasting.

@@ -3,6 +3,8 @@ layout: page
 title: Long-term prediction of chaotic systems
 description: using new deep architectures to learn the state evolution of a variety of chaotic dynamical systems and significantly extend the prediction time.
 img: /assets/img/chaos/hf.jpg
+year: 2019
+collaborators: Yong Zhuang, Matthew Almeida, Wei Ding, Patrick D Flynn, Shafiqul Islam, and Ping Chen
 importance: 4
 category: research
 ---
