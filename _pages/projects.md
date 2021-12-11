@@ -62,7 +62,7 @@ horizontal: true
               <div class="row">
                 <div class="col-sm-2 text-left text-sm-left">
                   <span class="badge font-weight-bold global-theme-block text-uppercase align-middle">
-                    {{ project.year}}
+                    {{ project.start}}
                   </span>
                 </div>
                 <div class="col-sm-7">
