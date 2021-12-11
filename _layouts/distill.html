@@ -17,7 +17,7 @@
     <script async type="text/json">{
       "title": "{{ page.title }}",
       "description": "{{ page.description }}",
-      "published": "{{ page.date | date: '%B %-d, %Y' }}",
+      "published": "{{ page.publish}}",
       "authors": [
         {% for author in page.authors %}
         {

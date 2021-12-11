@@ -52,7 +52,7 @@ horizontal: true
 
   {% else %}
   <!-- Display projects without categories -->
-    {% assign sorted_projects = site.projects | sort: "year" | reverse%}
+    {% assign sorted_projects = site.projects | sort: "start" | reverse%}
     <!-- Generate cards for each project -->
     {% if page.horizontal %}
         {% for project in sorted_projects%}

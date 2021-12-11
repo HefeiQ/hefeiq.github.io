@@ -2102,7 +2102,7 @@ d-appendix > distill-appendix {
     <div>
       <h3>Published</h3>
       ${frontMatter.publishedDate ? `
-        <p>${frontMatter.publishedMonth} ${frontMatter.publishedDay}, ${frontMatter.publishedYear}</p> ` : `
+        <p>${frontMatter.publishedYear}</p> ` : `
         <p><em>Not published yet.</em></p>`}
     </div>
   </div>
