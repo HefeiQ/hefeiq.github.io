@@ -3,7 +3,7 @@ layout: distill
 title: Interpretable Spatio-Temporal Modeling
 description: Identify predictable and interpretable feature subsets from high-dimensional feature space of mixed distribution. 
 img: /assets/img/spatio_temporal_modeling/galaxy.jpg
-start: 2017
+start: 2018
 publish: 2018
 
 authors:
