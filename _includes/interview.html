@@ -1,21 +1,21 @@
 <div class="card-item col">
-  {% if writing.redirect %}
-  <a href="{{ writing.redirect }}" target="_blank">
+  {% if interview.redirect %}
+  <a href="{{ interview.redirect }}" target="_blank">
   {% else %}
-  <a href="{{ writing.url | relative_url }}">
+  <a href="{{ interview.url | relative_url }}">
   {% endif %}
     <div class="card hoverable">
       <div class="row g-0">
-        {% if writing.img %}
+        {% if interview.img %}
         <div class="card-img col-md-6">
-          <img src="{{ writing.img | relative_url }}" alt="writing thumbnail">
+          <img src="{{ interview.img | relative_url }}" alt="interview thumbnail">
         </div>
         <div class="col-md-6">
         {% else %}
         <div class="col-md-12">
         {% endif %}
           <div class="card-body">
-            <h3 class="card-title text-lowercase">{{ writing.title }}</h3>
+            <h3 class="card-title text-lowercase">{{ interview.title }}</h3>
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ horizontal: true
 ---
 <div class="projects">
   <!-- Display projects without categories -->
-    {% assign sorted_interviews = site.interviews | sort: "title" | reverse %}
+    {% assign sorted_interviews = site.interview | sort: "title" | reverse %}
     <!-- Generate cards for each writing -->
     {% if page.horizontal %}
       <div class="container">
