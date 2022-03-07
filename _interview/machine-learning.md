@@ -2,7 +2,6 @@
 layout: page
 title: machine learning
 ---
-### Algorithms / Theory
 
 **What’s the trade-off between bias and variance?**
 
@@ -161,6 +160,10 @@ Pruning can occur in:
  - Top-down fashion. It will traverse nodes and trim subtrees starting at the root
  - Bottom-up fashion. It will begin at the leaf nodes
 
+**What is a Random Forest?**
+
+A ‘random forest’ is a supervised machine learning algorithm that is generally used for classification problems. It operates by constructing multiple decision trees during the training phase. The random forest chooses the decision of the majority of the trees as the final decision. 
+
 **Which is more important to you? Model accuracy, or model performance?**
 Well, you must know that model accuracy is only a subset of model performance. The accuracy of the model and performance of the model are directly proportional and hence better the performance of the model, more accurate are the predictions.
 
@@ -198,6 +201,16 @@ A good example of how ensemble methods are commonly used to solve data science p
 **What evaluation approaches would you work to gauge the effectiveness of a machine learning model?**
 
 Use the kernel function to ensure that there is no data in the high-dimensional space to calculate the coordinates of the point, and the inner product in the space can be calculated. Many algorithms can express such an inner product form, using kernel energy to ensure that low-dimensional data is calculated in a high-dimensional space.
+
+**What is Principal Component Analysis?**
+
+Principal Component Analysis or PCA is a multivariate statistical technique that is used for analyzing quantitative data. The objective of PCA is to reduce higher dimensional data to lower dimensions, remove noise, and extract crucial information such as features and attributes from large amounts of data.
+
+**What Are Some Methods of Reducing Dimensionality?**
+
+You can reduce dimensionality by combining features with feature engineering, removing collinear features, or using algorithmic dimensionality reduction.
+
+
 
 **How would you evaluate a logistic regression model?**
   - Accuracy Score
