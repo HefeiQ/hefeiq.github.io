@@ -22,17 +22,17 @@ In statistics and machine learning, the bias–variance tradeoff is the property
 
     Where $e$ is the error term and it’s normally distributed with a mean of $0$.
 
-    We will make a model $\hat{f}(X)$ of $f(X)$ using linear regression or any other modeling technique. So the expected squared error at a point $x$ is
+    We will make a model $$\hat{f}(X)$$ of $$f(X)$$ using linear regression or any other modeling technique. So the expected squared error at a point $x$ is
 
     $$Err(x)=E[(Y-\hat{f}(x))^2]$$
 
-    The $Err(x)$ can be further decomposed as
+    The $$Err(x)$$ can be further decomposed as
 
     $$Err(x)=(E[\hat{f}(x)]-f(x))^2+E[(\hat{f}(x)-E[\hat{f}(x)])^2]+\sigma^2_e \\
       =Bias^2+Variance+Irreducible Error
     $$
 
-    $Err(x)$ is the sum of $Bias^2$, variance and the irreducible error.
+    $$Err(x)$$ is the sum of $$Bias^2$$, variance and the irreducible error.
 
     Irreducible error is the error that can’t be reduced by creating good models. It is a measure of the amount of noise in our data. Here it is important to understand that no matter how good we make our model, our data will have certain amount of noise or irreducible error that can not be removed.
 
