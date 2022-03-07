@@ -112,7 +112,7 @@ AUC stands for "Area under the ROC Curve." That is, AUC measures the entire two-
 
 
 
-**What is Bayes’ Theorem? How is it useful in a machine learning context?**
+**[What is Bayes’ Theorem? How is it useful in a machine learning context?](https://seeing-theory.brown.edu/bayesian-inference/index.html)**
 
 Bayes Theorem is a method to determine conditional probabilities – that is, the probability of one event occurring given that another event has already occurred. Because a conditional probability includes additional conditions – in other words, more data – it can contribute to more accurate results.
 
@@ -120,23 +120,33 @@ Say a  bookstore manager has information about his customers’ age and income. 
 
 Let us term our data X. In Bayesian terminology, X is called evidence. We have some hypothesis H, where we have some X that belongs to a certain class C.
 
-Our goal is to determine the conditional probability of our hypothesis H given X, i.e., P(H | X).
+Our goal is to determine the conditional probability of our hypothesis H given X, i.e., $$P(H | X)$$.
 
-In simple terms, by determining P(H | X), we get the probability of X belonging to class C, given X. X has attributes of age and income – let’s say, for instance, 26 years old with an income of $2000. H is our hypothesis that the customer will buy the book.
+In simple terms, by determining $$P(H | X)$$, we get the probability of X belonging to class C, given X. X has attributes of age and income – let’s say, for instance, 26 years old with an income of $2000. H is our hypothesis that the customer will buy the book.
 
 Pay close attention to the following four terms:
 
- - **Evidence** – As discussed earlier, P(X) is known as evidence. It is simply the probability that the customer will, in this case, be of age 26, earning $2000.
+ - **Evidence** – As discussed earlier, $$P(X)$$ is known as evidence. It is simply the probability that the customer will, in this case, be of age 26, earning $2000.
  
- - **Prior Probability** – P(H), known as the prior probability, is the simple probability of our hypothesis – namely, that the customer will buy a book. This probability will not be provided with any extra input based on age and income. Since the calculation is done with lesser information, the result is less accurate.
+ - **Prior Probability** – $$P(H)$$, known as the prior probability, is the simple probability of our hypothesis – namely, that the customer will buy a book. This probability will not be provided with any extra input based on age and income. Since the calculation is done with lesser information, the result is less accurate.
  
- - **Posterior Probability** – P(H | X) is known as the posterior probability. Here, P(H | X) is the probability of the customer buying a book (H) given X (that he is 26 years old and earns $2000). 
+ - **Posterior Probability** – $$P(H | X)$$ is known as the posterior probability. Here, P(H | X) is the probability of the customer buying a book (H) given X (that he is 26 years old and earns $2000). 
  
- - **Likelihood** – P(X | H) is the likelihood probability. In this case, given that we know the customer will buy the book, the likelihood probability is the probability that the customer is of age 26 and has an income of $2000.
+ - **Likelihood** – $$P(X | H)$$ is the likelihood probability. In this case, given that we know the customer will buy the book, the likelihood probability is the probability that the customer is of age 26 and has an income of $2000.
  
  Given these, Bayes Theorem states:
 
    $$P(H | X) = \frac{P(X | H) * P(H)}{P(X)}$$
+
+
+**What’s the difference between probability and likelihood?**
+
+ - Probability refers to the chance that a particular outcome occurs based on the values of parameters in a model.
+ - Likelihood refers to how well a sample provides support for particular values of a parameter in a model.
+
+When calculating the probability of some outcome, we assume the parameters in a model are trustworthy.
+
+However, when we calculate likelihood we’re trying to determine if we can trust the parameters in a model based on the sample data that we’ve observed.
 
 **Why is “Naive” Bayes naive?**
 
@@ -201,18 +211,29 @@ Kernel trick allows the inner product of mapping function instead of the data po
 
 
 
-**Q8: Explain the difference between L1 and L2 regularization.**
+**Explain the difference between L1 and L2 regularization.**
+
+ - L1 regularization penalizes the sum of absolute values of the weights, whereas L2 regularization penalizes the sum of squares of the weights. 
+ - The L1 regularization solution is sparse. The L2 regularization solution is non-sparse.
+ - L2 regularization doesn’t perform feature selection, since weights are only reduced to values near 0 instead of 0. L1 regularization has built-in feature selection.
+ - L1 regularization is robust to outliers, L2 regularization is not. 
+
+
+**What’s a Fourier transform?**
+
+The Fourier transform is a mathematical function that decomposes a waveform, which is a function of time, into the frequencies that make it up. The result produced by the Fourier transform is a complex valued function of frequency. The absolute value of the Fourier transform represents the frequency value present in the original function and its complex argument represents the phase offset of the basic sinusoidal in that frequency.
 
 **Q9: What’s your favorite algorithm, and can you explain it to me in less than a minute?**
 
-**Q10: What’s the difference between Type I and Type II error?**
 
-**Q11: What’s a Fourier transform?**
 
-**Q12: What’s the difference between probability and likelihood?**
 
 **Q13: What is deep learning, and how does it contrast with other machine learning algorithms?**
 
 **Q14: What’s the difference between a generative and discriminative model?**
 
-**Q15- What cross-validation technique would you use on a time series dataset?**
+**What cross-validation technique would you use on a time series dataset?**
+
+With time series data, particular care must be taken in splitting the data in order to prevent data leakage. In order to accurately simulate the “real world forecasting environment, in which we stand in the present and forecast the future” (Tashman 2000), the forecaster must withhold all data about events that occur chronologically after the events used for fitting the model. So, rather than use k-fold cross-validation, for time series data we utilize hold-out cross-validation where a subset of the data (split temporally) is reserved for validating the model performance. For example, see following figure where the test set data comes chronologically after the training set. Similarly, the validation set comes chronologically after the training subset.
+<img class="float-left" src="{{ 'interview/nested_cv.png' | prepend: '/assets/img/' | relative_url }}"/>
+<img class="float-left" src="{{ 'interview/summary_nested_cv.png' | prepend: '/assets/img/' | relative_url }}"/>
