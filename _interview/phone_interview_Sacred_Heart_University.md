@@ -113,6 +113,16 @@ strengths: like to work with students and colleges, share ideas with them. I lik
 
 weaknesses: non-native speaker, have accent(/ˈækˌsɛnt/) in my english speaking. I like to provide slides and figures to let what I said easy to understand.
 
+**Other questions**
+What is the timeline for this searching?
+
+What is the teaching load for new faculty members?
+
+Is the any strategic(/strəˈtiːʤɪkəl/) plan for the department? For example, in 5 years or 10 years.
+
+Is there any special services required for faculty members?
+
+
 
 
 
