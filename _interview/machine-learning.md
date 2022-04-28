@@ -2,7 +2,7 @@
 layout: page
 title: machine learning
 ---
-
+["machine learning questions"]({{ 'interview/Interview_Questions.pdf' | prepend: '/assets/pdf/' | relative_url }})
 **What’s the trade-off between bias and variance?**
 
 In statistics and machine learning, the bias–variance tradeoff is the property of a model that the variance of the parameter estimated across samples can be reduced by increasing the bias in the estimated parameters. The bias–variance dilemma or bias–variance problem is the conflict in trying to simultaneously minimize these two sources of error that prevent supervised learning algorithms from generalizing beyond their training set:
