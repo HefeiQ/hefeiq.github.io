@@ -87,3 +87,16 @@ I am motivated and excited to learn about the company's culture and work style, 
 **Tell me about a time you had to learn something quickly.**
 
 **Do you have any questions for me?**
+    **Work overtime**
+        - How responsive are people to email/Slack over the weekends and after 6 PM?
+        - Are there times of the month, quarter, or year when the team is most busy?
+    **Work place and work time**
+    - Will I be working with anyone who is remote, or who works from home on a regular basis?
+    - Do centain projects require more face-to-face time than others?
+    **Work environment**
+    - Who sets deadlines and what happens when people fail to meet them?
+    - Can you give me an example of a mistake you've made here, and how it was handled?
+    **Career growth**
+    - Did any of your senior start out as junior here?
+    = what percentage of managers within the company were promoted internally?
+    - (For manager or lead) What made you decide to interview external candidate like me for this role?
