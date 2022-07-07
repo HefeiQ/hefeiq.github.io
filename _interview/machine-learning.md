@@ -164,6 +164,25 @@ Pruning can occur in:
 
 A ‘random forest’ is a supervised machine learning algorithm that is generally used for classification problems. It operates by constructing multiple decision trees during the training phase. The random forest chooses the decision of the majority of the trees as the final decision. 
 
+**How does random forest generate the forest? Additionally, why would we use it over other algorithms such as alogistic regression?**
+Random forest generates the forest by essentially bootstrapping your dataset to create many different decision tree functions and then aggregating them together to create a superior model that has a lower variance than the individual decision trees have. Because the bootstrapped samples used to create the individual decision tree models are not truly independent, a random subset of the features from the dataset are used to split nodes for purity. This reduces the correlation between individual trees.
+
+The advantage that Random Forest has over models such as logistic regression is that it can capture non-linear relationships in the data and does not make assumptions about continuity in the feature values that models such as logistic regression make.
+
+**Let's say you have a categorical variable with thousands of distinct values, how would you encode it?**
+  - One-hot encoding:
+    * pros - two levels numeric encoding, naive
+    * cons - given the cardinality, dimensions increase, curse of dimensionlity
+  - label encoding:
+    * pros - numeric vector given the categories
+    * cons - does not add any predictive power, confusion around the interpretability
+  - count encoding:
+    * pros - indicative of the frequency, predictive power
+  - Target encoding - proportion/avg of Y for this categorical level
+    * pros - predictive power, better performance, learning from the labels
+    * cons - chances of target leakage if not implemented properly
+
+
 **Which is more important to you? Model accuracy, or model performance?**
 Well, you must know that model accuracy is only a subset of model performance. The accuracy of the model and performance of the model are directly proportional and hence better the performance of the model, more accurate are the predictions.
 
