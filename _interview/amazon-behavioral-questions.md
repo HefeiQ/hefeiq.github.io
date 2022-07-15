@@ -7,10 +7,9 @@ title: Amazon behavioral questions
 - Why Amazon?
 - Why do you want to make a move?
 - What do you looking for for your next role?
- - 3 reasons. 
- - First, values customer obsession --> better product and software --> my dream is to design products that meet real human needs.
- - Secondly, machine learning --> Amazon is a pioneer of creative applications of machine learning.
- - Lastly, labmate Alexa team --> ongoing learning opportunities --> a workspace that values my learning and development.
+    - First, values customer obsession --> better product and software --> my dream is to design products that meet real human needs.
+    - Secondly, machine learning --> Amazon is a pioneer of creative applications of machine learning.
+    - Lastly, labmate Alexa team --> ongoing learning opportunities --> a workspace that values my learning and development.
 
 ### Customer Obssession
 ##### Customer interaction
@@ -41,7 +40,17 @@ title: Amazon behavioral questions
 
 ##### interpersonal conflict
     - Tell me about a time you disagreed with a colleague or boss. What is the process you used to work it out?
-    - 
+    - Tell me about a time you disagreed with a colleague or boss and you were right.
+    - Tell me about a time you disagreed with a colleague or boss and you were wrong.
+
+##### judement form incomplete data
+    - Tell me about a time when you had to work with incomplete data or information.
+    - Tell me about a time when you had to work with incomplete data and you failed.
+    
+### Ownership
+##### Above & beyond
+    - Provide an example of when you personally demonstrate ownership
+    - Tell me about a time when you went above and beyond?
 
 
 
