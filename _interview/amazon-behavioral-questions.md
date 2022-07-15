@@ -4,13 +4,13 @@ title: Amazon behavioral questions
 ---
 
 ### Why [Company]?
-    - Why Amazon?
-    - Why do you want to make a move?
-    - What do you looking for for your next role?
-    -- 3 reasons. 
-    -- First, values customer obsession --> better product and software --> my dream is to design products that meet real human needs.
-    -- Secondly, machine learning --> Amazon is a pioneer of creative applications of machine learning.
-    -- Lastly, labmate Alexa team --> ongoing learning opportunities --> a workspace that values my learning and development.
+- Why Amazon?
+- Why do you want to make a move?
+- What do you looking for for your next role?
+ - 3 reasons. 
+ - First, values customer obsession --> better product and software --> my dream is to design products that meet real human needs.
+ - Secondly, machine learning --> Amazon is a pioneer of creative applications of machine learning.
+ - Lastly, labmate Alexa team --> ongoing learning opportunities --> a workspace that values my learning and development.
 
 ### Customer Obssession
 ##### Customer interaction
@@ -34,6 +34,16 @@ title: Amazon behavioral questions
     -- R: satify; quick developing; be easily maintained and updated.
     -- L: long term goal. 
     
-### Customer Obssession
+### Are right a lot
+##### mistake/failure
+    - Tell me about a time you failed/were wrong/ made a mistake/ had an error in judgment/made a bad decision/regret.
+    - Tell me about a time when you made a bad/wrong decision and the learning from the experience enabled you to make a good decision later. What did you learn that you were able to apply?
+
+##### interpersonal conflict
+    - Tell me about a time you disagreed with a colleague or boss. What is the process you used to work it out?
+    - 
 
 
+
+
+    
