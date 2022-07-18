@@ -101,45 +101,45 @@ title: Amazon behavioral questions
     - R: 72 after sale staff for the 1st round test, achieve the basic goal, not perfect, loading time. --> map server.
 
 ##### take action & moving fast
-    - S: company join exhibition; payment machines; map-based-after-sale-system;
-    - T: free map api. small community, limited documents, long time response, hard deadline.
-    - A: basic functions quickly tried and released for fundamental uses. design query requests queue to avoid the request conflicts. 
-    - R: persentation succeed and got a big order.
+- S: company join exhibition; payment machines; map-based-after-sale-system;
+- T: free map api. small community, limited documents, long time response, hard deadline.
+- A: basic functions quickly tried and released for fundamental uses. design query requests queue to avoid the request conflicts. 
+- R: persentation succeed and got a big order.
 
 ### Think big
-    - S: 1st task during intership
-    - T: patient discharge prediction model, different datasets, has other prediction requirements. 
-    - A: NLP; feature selection; model selection; Auto-ML framework 
-    - R: design a non-historical record based model with an average precision improvement of 17%.
+- S: 1st task during intership
+- T: patient discharge prediction model, different datasets, has other prediction requirements. 
+- A: NLP; feature selection; model selection; Auto-ML framework 
+- R: design a non-historical record based model with an average precision improvement of 17%.
 
 ### Invent & Simplify
 
 ### Learn, and Be curious
-    - S: non-historical record based model
-    - T: non-historical record based model. 
-    - A: NLP --> new tokens --> [expanding abbreviations; correcting misspellings; removing stopwords; stemming] -- tfidf, w2v; pca, t-sne(t-distributed stochastic neighbor embedding) to check word similarity
-    - R: design a non-historical record based model with an average precision improvement of 17%.
+- S: non-historical record based model
+- T: non-historical record based model. 
+- A: NLP --> new tokens --> [expanding abbreviations; correcting misspellings; removing stopwords; stemming] -- tfidf, w2v; pca, t-sne(t-distributed stochastic neighbor embedding) to check word similarity
+- R: design a non-historical record based model with an average precision improvement of 17%.
 
 
 ### Dive Deep
-    - S: Plan to release a predictive model for predicting end-of-life care patients. A colleague -->generated samples --> built a Random Forest model --> over 80% accuracy. I discussed with him on this project.
-    <!-- Because of his thesis defense, he needs to leave for 1 month.  -->
-    - T: I just finished my auto-ML framework, and I used this project to evaluate my framework.
-    - A: generated samples --> ML framework --> up to 65% accuracy, even a random forest. my framework on his samples -- > over 80%. check correlation --> 1 feature strongly related. weird. 1 on 1 meeting --> "prev-hospital stay" includes the current hospital stay.
-    - R: Bugs fixed before model release. 
+- S: Plan to release a predictive model for predicting end-of-life care patients. A colleague -->generated samples --> built a Random Forest model --> over 80% accuracy. I discussed with him on this project.
+<!-- Because of his thesis defense, he needs to leave for 1 month.  -->
+- T: I just finished my auto-ML framework, and I used this project to evaluate my framework.
+- A: generated samples --> ML framework --> up to 65% accuracy, even a random forest. my framework on his samples -- > over 80%. check correlation --> 1 feature strongly related. weird. 1 on 1 meeting --> "prev-hospital stay" includes the current hospital stay.
+- R: Bugs fixed before model release. 
 
     
-    - S: map-based-after-sale-system. 
-    - T: free map api. small community, limited documents, long time response, request conflicts.
-    - A: design query requests queue to avoid the request conflicts. 
-    - R: 72 after sale staff for the 1st round test, achieve the basic goal, not perfect, loading time. --> map server.
+- S: map-based-after-sale-system. 
+- T: free map api. small community, limited documents, long time response, request conflicts.
+- A: design query requests queue to avoid the request conflicts. 
+- R: 72 after sale staff for the 1st round test, achieve the basic goal, not perfect, loading time. --> map server.
 
 ### Insist on the highest standards
 - Tell me about a time when you couldn't meet your expections on a project.    
-    - S: HF model, paper submit deadline. 
-    - T: plan to design HF as a high level framework that work for all deep models.
-    - A: architectures are different, impossible to have 1 framework for all architectures. 
-    - R: HF for recurrent neural network, working on the HF for transformer.
+- S: HF model, paper submit deadline. 
+- T: plan to design HF as a high level framework that work for all deep models.
+- A: architectures are different, impossible to have 1 framework for all architectures. 
+- R: HF for recurrent neural network, working on the HF for transformer.
 
 
 ### Earn Trust
