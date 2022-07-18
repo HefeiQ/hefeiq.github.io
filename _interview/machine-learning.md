@@ -3,6 +3,19 @@ layout: page
 title: machine learning
 ---
 ["machine learning questions"]({{ 'interview/Interview_Questions.pdf' | prepend: '/assets/pdf/' | relative_url }})
+
+**Briefly describe the flow of a complete machine learning project.**
+ - Formulate it into a mathmatic problem
+ - Collect samples
+ - Feature preprocessing and feature selection
+ - Model training and tuning
+ - Determine the direction and idea of ​​model tuning: Common methods such as cross-validation, drawing learning curves, etc. overfitting, underfitting, Error analysis: whether it is a problem of parameters or algorithm selection, whether it is a problem of features or of the data itself...
+ - Model fusion: 
+ - Model deployment: Engineering is result-oriented, and the effect of the model running online directly determines the success or failure of the model. It not only includes its accuracy, error, etc., but also its running speed (time complexity), resource consumption (space complexity), and whether the stability is acceptable.
+
+
+
+
 **What’s the trade-off between bias and variance?**
 
 In statistics and machine learning, the bias–variance tradeoff is the property of a model that the variance of the parameter estimated across samples can be reduced by increasing the bias in the estimated parameters. The bias–variance dilemma or bias–variance problem is the conflict in trying to simultaneously minimize these two sources of error that prevent supervised learning algorithms from generalizing beyond their training set:
@@ -52,11 +65,24 @@ The Overfitting is a situation that occurs when a model learns the training set 
 When a model is given the training data, it shows 100 percent accuracy—technically a slight loss. But, when we use the test data, there may be an error and low efficiency. This condition is known as overfitting.
 
 There are multiple ways of avoiding overfitting, such as:
-
+ - Data normalization, imput missing values, increase sampls, and add noise
  - Regularization. It involves a cost term for the features involved with the objective function
  - Making a simple model. With lesser variables and parameters, the variance can be reduced 
  - Cross-validation methods like k-folds can also be used
  - If some model parameters are likely to cause overfitting, techniques for regularization like LASSO can be used that penalize these parameters
+ - dropout、regularization、batch normalization
+
+**Why normalization?**
+
+ - After normalization, the speed of gradient descent to find the optimal solution is accelerated; 
+ - Normalization may improve the accuracy because of distance calculation
+
+**Normalization methods**
+ - minmax
+ - standand
+ - non-linear: log
+
+ [reference](https://www.cnblogs.com/LBSer/p/4440590.html)
 
 **How Do You Handle Missing or Corrupted Data in a Dataset?**
 
@@ -176,11 +202,23 @@ The advantage that Random Forest has over models such as logistic regression is 
   - label encoding:
     * pros - numeric vector given the categories
     * cons - does not add any predictive power, confusion around the interpretability
-  - count encoding:
+  - count encoding: replacing categories with their counts computed on the train set. 
     * pros - indicative of the frequency, predictive power
+    * cons - sensitive to outliers, may result in collision - encoding two categories as the same value.
   - Target encoding - proportion/avg of Y for this categorical level
     * pros - predictive power, better performance, learning from the labels
     * cons - chances of target leakage if not implemented properly
+
+We apply One-Hot Encoding when:
+
+The categorical feature is not ordinal (like the countries above)
+The number of categorical features is less so one-hot encoding can be effectively applied
+We apply Label Encoding when:
+
+The categorical feature is ordinal (like Jr. kg, Sr. kg, Primary school, high school)
+ The number of categories is quite large as one-hot encoding can lead to high memory consumption
+[reference](https://wrosinski.github.io/fe_categorical_encoding/)
+
 
 
 **Which is more important to you? Model accuracy, or model performance?**
@@ -249,6 +287,7 @@ Kernel trick allows the inner product of mapping function instead of the data po
  - The L1 regularization solution is sparse. The L2 regularization solution is non-sparse.
  - L2 regularization doesn’t perform feature selection, since weights are only reduced to values near 0 instead of 0. L1 regularization has built-in feature selection.
  - L1 regularization is robust to outliers, L2 regularization is not. 
+ - L1 is a Laplace distribution and L2 is a Gaussian distribution.
 
 
 **What’s a Fourier transform?**
@@ -263,6 +302,23 @@ The Fourier transform is a mathematical function that decomposes a waveform, whi
 **Q13: What is deep learning, and how does it contrast with other machine learning algorithms?**
 
 **Q14: What’s the difference between a generative and discriminative model?**
+Core Idea: Discriminative models draw boundaries in the data space, while generative models try to model how data is placed throughout the space. A generative model focuses on explaining how the data was generated, while a discriminative model focuses on predicting the labels of the data.
+
+Mathematical Intuition: In mathematical terms, a discriminative machine learning trains a model which is done by learning parameters that maximize the conditional probability P(Y|X), while on the other hand, a generative model learns parameters by maximizing the joint probability of P(X, Y).
+
+Outliers: Generative models have more impact on outliers than discriminative models.
+
+Computational Cost: Discriminative models are computationally cheap as compared to generative models.
+
+generative models:
+ - Naive Bayes, Hidden Markov Models, Gaussian Mixture Models, Document Topic Generation (LDA), Restricted Boltzmann Machines
+
+discriminative models:
+ - K-Nearest Neighbors, SVM, Decision Trees, Perceptrons, Linear Discriminant Analysis (LDA), Linear Regression, Traditional Neural Networks, Logistic Regression, Boosting, Conditional Random Fields
+
+[reference](https://www.analyticsvidhya.com/blog/2021/07/deep-understanding-of-discriminative-and-generative-models-in-machine-learning/#:~:text=Discriminative%20models%20draw%20boundaries%20in,the%20labels%20of%20the%20data.)
+
+
 
 **What cross-validation technique would you use on a time series dataset?**
 
@@ -282,3 +338,24 @@ As a note, the random forest algorithm is considered an extension of the bagging
 Bagging and boosting are two main types of ensemble learning methods. As highlighted in this study (PDF, 248 KB) (link resides outside IBM), the main difference between these learning methods is the way in which they are trained. In bagging, weak learners are trained in parallel, but in boosting, they learn sequentially. This means that a series of models are constructed and with each new model iteration, the weights of the misclassified data in the previous model are increased. This redistribution of weights helps the algorithm identify the parameters that it needs to focus on to improve its performance. AdaBoost, which stands for “adaptative boosting algorithm,” is one of the most popular boosting algorithms as it was one of the first of its kind. Other types of boosting algorithms include XGBoost, GradientBoost, and BrownBoost.
 
 Another difference in which bagging and boosting differ are the scenarios in which they are used. For example, bagging methods are typically used on weak learners which exhibit high variance and low bias, whereas boosting methods are leveraged when low variance and high bias is observed.
+
+**What does S (stochastic) in SGD stand for?**
+- Optimization algorithms that use the entire training set are called batch or deterministic gradient algorithms because all samples are processed simultaneously in one large batch.
+- Optimization algorithms that use only a single sample at a time are sometimes called stochastic or online algorithms.
+- Most algorithms for deep learning fall somewhere in between, using more than one rather than all training samples. They are now commonly referred to simply as stochastic methods.
+
+**LSTM structure derivation, why is it better than RNN?**
+
+Derive the changes of forget gate, input gate, cell state, hidden information, etc.; because LSTM has in and out and the current cell informaton is superimposed after being controlled by the input gate, RNN is multiplication, so LSTM can prevent the gradient from vanishing or exploding.
+
+**Gradients vanishing and exploding**
+ - Gradient clipping, regularization: WGAN
+ - relu、leakrelu、elu
+ - batchnorm
+ - residual connection
+ - LSTM
+
+**covariance and correlation**
+
+covariance(A, C) cannot compare with covariance(B, C) because of the different ranges of A and B Correlation is the standard covariance.
+[reference](https://www.zhihu.com/question/20852004)
