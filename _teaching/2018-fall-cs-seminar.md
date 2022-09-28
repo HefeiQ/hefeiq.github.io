@@ -11,4 +11,4 @@ to specific student needs. Thus, by attending the CS Seminar, students get the a
 - I delivered a 60-minute presentation weekly, covering the materials in computer science courses (e.g., CS210, CS310, CS420). 
 - I spent 30 minutes to provide practical guidance and answer specific questions.
 - I spent 30 minutes previewing upcoming course content, assignments and predicting future challenges.
-- **syllabus:**<a href="{{ 'teaching/2018-fall-cs-seminar/cs_seminar_syllabus_fall2018.pdf' | prepend: '/assets/pdf/' | relative_url }}" class="z-depth-0 badge global-theme-block button-block text-uppercase" role="button" target="_blank">PDF</a>
+- **syllabus:** <a href="{{ 'teaching/2018-fall-cs-seminar/cs_seminar_syllabus_fall2018.pdf' | prepend: '/assets/pdf/' | relative_url }}" class="z-depth-0" role="button" target="_blank"><i class="fas fa-file-pdf"></i></a>

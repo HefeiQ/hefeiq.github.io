@@ -81,22 +81,22 @@
 
     <div class="links">
     {% if entry.abstract %}
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a class="abstract" role="button"><i class="fas fa-file-alt"></i></a>
     {% endif %}
     {% if entry.arxiv %}
       <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
     {% endif %}
     {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+        <a class="bibtex" role="button"><i class="fas fa-quote-left"></i></a>
     {% endif %}
     {% if entry.html %}
       <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
     {% endif %}
     {% if entry.pdf %}
-      {% if entry.pdf contains '://' %}
-      <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      {% if entry.pdf contains '://' %}     
+      <a href="{{ entry.pdf }}" target="_blank"><i class="fab fa-file-pdf"></i></a>
       {% else %}
-      <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank"><i class="fas fa-file-pdf"></i></a>
       {% endif %}
     {% endif %}
     {% if entry.supp %}
@@ -114,16 +114,16 @@
     {% endif %}
     {% if entry.poster %}
       {% if entry.poster contains '://' %}
-      <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
+      <a href="{{ entry.poster }}" target="_blank"><i class="fas fa-desktop"></i></a>
       {% else %}
-      <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
+      <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" target="_blank"><i class="fas fa-desktop"></i></a>
       {% endif %}
     {% endif %}
     {% if entry.slides %}
       {% if entry.slides contains '://' %}
-      <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+      <a href="{{ entry.slides }}" target="_blank"><i class="fas fa-file-powerpoint"></i></a>
       {% else %}
-      <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+      <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" target="_blank"><i class="fas fa-file-powerpoint"></i></a>
       {% endif %}
     {% endif %}
     {% if entry.website %}
