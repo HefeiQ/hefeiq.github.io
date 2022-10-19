@@ -25,6 +25,26 @@
 "Crouter":
   - firstname: ["Scott E"]
     url: https://krss.utk.edu/faculty-staff/scott-e-crouter-ph-d/
+
+"Zhuang":
+  - firstname: ["Yong"]
+    url: https://yong-zhuang.github.io/
+
+"Flynn":
+  - firstname: ["Patrick D", "Patrick"]
+    url: https://www.linkedin.com/in/patrick-flynn-85666b40/
+
+"Shu":
+  - firstname: ["Xin"]
+    url: https://www.linkedin.com/in/xin-s/
+
+"Small":
+  - firstname: ["David", "David L"]
+    url: https://www.linkedin.com/in/david-small-1a440936/  
+
+"Wang":
+  - firstname: ["Dawei"]
+    url: https://www.linkedin.com/in/dawei-wang-55471038/
     
 
    
