@@ -1,14 +1,12 @@
-name: deploy
+name: Deploy
 
 on:
   push:
     branches:
-      - master
-      - main
+      - source
   pull_request:
     branches:
-      - master
-      - main
+      - source
 
 jobs:
   deploy:
