@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,7 +10,7 @@
   Yong  Zhuang
 
 
-  | blog
+  | Crime Hot Spot Forecasting
 
 </title>
 <meta name="description" content="The personal website of Yong Zhuang.
@@ -37,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐉</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/crime_hotspot_forecasting/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -64,7 +63,80 @@
 <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
 
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/assets/js/distillpub/overrides.js"></script>
+    
   </head>
+
+  <d-front-matter>
+    <script async type="text/json">{
+      "title": "Crime Hot Spot Forecasting",
+      "description": "A recurrent neural network for crime hot spots forecasting.",
+      "published": "2017",
+      "authors": [
+        
+        {
+          "author": "Yong Zhuang",
+          "authorURL": "https://yong-zhuang.github.io",
+          "affiliations": [
+            {
+              "name": "UMASS Boston",
+              "url": ""
+            }
+          ]
+        },
+        
+        {
+          "author": "Matthew Almeida",
+          "authorURL": "https://matthewalmeida.github.io/",
+          "affiliations": [
+            {
+              "name": "UMASS Boston",
+              "url": ""
+            }
+          ]
+        },
+        
+        {
+          "author": "Melissa Morabito",
+          "authorURL": "https://www.uml.edu/fahss/criminal-justice/faculty/morabito-melissa.aspx",
+          "affiliations": [
+            {
+              "name": "UMASS Lowell",
+              "url": ""
+            }
+          ]
+        },
+        
+        {
+          "author": "Wei Ding",
+          "authorURL": "https://www.cs.umb.edu/~ding/",
+          "affiliations": [
+            {
+              "name": "UMASS Boston",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
 
   <body class=" ">
 
@@ -99,8 +171,6 @@
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -234,29 +304,30 @@
 
     <!-- Content -->
 
-    <div class="container mt-5">
-      <div class="post">
+    <div class="post distill">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+      <d-title>
+        <h1>Crime Hot Spot Forecasting</h1>
+        <p>A recurrent neural network for crime hot spots forecasting.</p>
+      </d-title>
 
+      <d-byline></d-byline>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2019/pca/">Principal Component Analysis (PCA).</a></h3>
-        <p class="post-meta">April 21, 2019</p>
-        <p>a complete and simplified explanation of Principal Component Analysis (PCA).</p>
-      </li>
-    
-  </ul>
+      <d-article>
+        <p>The work on this project has published in ICBK 2017. Take a look at <a href="/assets/pdf/zhuang2017crime/paper.pdf">“Crime hot spot forecasting: A recurrent model with spatial and temporal information”</a> for more details.</p>
+<h2 id="objective">Objective</h2>
+<p>Place-based Crime prediction has become an area of significant research interest in recent years. Some studies have found that stable hot spots and flow hot spots always exist simultaneously in a specific area, and crime hot spots become more dynamic and unstable as the measurement time and space scale decrease. Therefore, to make specific crime prevention strategies effective and efficient, capturing the temporal evolution of spatial crime patterns has become a great demand.</p>
 
-  
+<h2 id="proposed-model">Proposed Model</h2>
+<p><img class="float-left w-50" src="/assets/img/crime/crime.jpg" />
+Deep recurrent neural networks (RNN), which have shown impressive performance in several sequence prediction problems, including machine translation, contextual parsing, image captioning, and even video description, are designed to process sequences and capture the temporal evolution of the objects. In addition, some variants like the Long Short-Term Memory (LSTM) and Gated Recurrent Unit(GRU) can deal with long-term dependencies well. We propose <a href="/assets/pdf/zhuang2017crime/paper.pdf">a recurrent neural network to forecast crime hot spots by simulating spatial patterns’ temporal evolution with spatial information embedding</a>. We evaluate the model using call-for-service data provided by the Portland, Oregon Police Bureau (PPB) for five years, from March 2012 through December 2016. The experiment results show that our model outperforms several classical machine learning approaches and alternative neural network architectures.</p>
 
+      </d-article>
 
-</div>
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
 
     </div>
 
@@ -276,28 +347,7 @@
 
   </body>
 
-  <!-- Bootsrap & MDB scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
-
-  
-<!-- Mansory & imagesLoaded -->
-<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
-
-
-  
-
-
-<!-- Medium Zoom JS -->
-<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
-<script src="/assets/js/zoom.js"></script>
-
-
-<!-- Load Common JS -->
-<script src="/assets/js/common.js"></script>
-
+  <d-bibliography src="/assets/bibliography/hf/hf.bib">
+  </d-bibliography>
 
 </html>

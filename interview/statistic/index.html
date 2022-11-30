@@ -11,7 +11,7 @@
   Yong  Zhuang
 
 
-  | blog
+  | statistic
 
 </title>
 <meta name="description" content="The personal website of Yong Zhuang.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐉</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/interview/statistic/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -99,8 +99,6 @@
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -237,24 +235,48 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h2 class="post-title text-uppercase blue-color-black font-weight-bold">statistic</h2>
+    <p class="post-description"></p>
+  </header>
 
+  <article>
+    <h4 id="q1-how-is-the-statistical-significance-of-an-insight-assessed">Q1. How is the statistical significance of an insight assessed?</h4>
+<ul>
+  <li>Hypothesis testing is used to find out the statistical significance of the insight. To elaborate, the null hypothesis and the alternate hypothesis are stated, and the p-value is calculated.</li>
+</ul>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2019/pca/">Principal Component Analysis (PCA).</a></h3>
-        <p class="post-meta">April 21, 2019</p>
-        <p>a complete and simplified explanation of Principal Component Analysis (PCA).</p>
-      </li>
-    
-  </ul>
+<p>After calculating the p-value, the null hypothesis is assumed true, and the values are determined. To fine-tune the result, the alpha value, which denotes the significance, is tweaked. If the p-value turns out to be less than the alpha, then the null hypothesis is rejected. This ensures that the result obtained is statistically significant.</p>
 
-  
+<h4 id="q2-where-are-long-tailed-distributions-used">Q2. Where are long-tailed distributions used?</h4>
+<ul>
+  <li>A long-tailed distribution is a type of distribution where the tail drops off gradually toward the end of the curve.</li>
+</ul>
 
+<p>The Pareto principle and the product sales distribution are good examples to denote the use of long-tailed distributions. Also, it is widely used in classification and regression problems.</p>
+
+<h4 id="q3-what-is-the-central-limit-theorem">Q3. What is the central limit theorem?</h4>
+<ul>
+  <li>The central limit theorem states that the normal distribution is arrived at when the sample size varies without having an effect on the shape of the population distribution.</li>
+</ul>
+
+<p>This central limit theorem is the key because it is widely used in performing hypothesis testing and also to calculate the confidence intervals accurately.</p>
+
+<h4 id="q4-what-is-observational-and-experimental-data-in-statistics">Q4. What is observational and experimental data in Statistics?</h4>
+<ul>
+  <li>Observational data correlates to the data that is obtained from observational studies, where variables are observed to see if there is any correlation between them.</li>
+</ul>
+
+<p>Experimental data is derived from experimental studies, where certain variables are held constant to see if any discrepancy is raised in the working.</p>
+
+<h4 id="q5-what-is-meant-by-mean-imputation-for-missing-data-why-is-it-bad">Q5. What is meant by mean imputation for missing data? Why is it bad?</h4>
+<ul>
+  <li>Mean imputation is a rarely used practice where null values in a dataset are replaced directly with the corresponding mean of the data.</li>
+</ul>
+
+<p>It is considered a bad practice as it completely removes the accountability for feature correlation. This also means that the data will have low variance and increased bias, adding to the dip in the accuracy of the model, alongside narrower confidence intervals.</p>
+
+  </article>
 
 </div>
 

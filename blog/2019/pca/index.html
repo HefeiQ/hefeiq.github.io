@@ -11,7 +11,7 @@
   Yong  Zhuang
 
 
-  | blog
+  | Principal Component Analysis (PCA).
 
 </title>
 <meta name="description" content="The personal website of Yong Zhuang.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐉</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2019/pca/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -99,8 +99,6 @@
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -235,26 +233,37 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Principal Component Analysis (PCA).</h1>
+    <p class="post-meta">April 21, 2019</p>
+  </header>
+
+  <article class="post-content">
+    <h3 id="what-is-principal-component-analysis">What is Principal Component Analysis?</h3>
+<p>Principal component analysis(PCA) is a dimensionality-reduction method commonly used to reduct the dimensionality of large datasets by transforming a large set of variables into a smaller one that still contains most of the information in the large set.</p>
+
+<p>Reducing the number of variables in a dataset naturally comes at the expense of accuracy. Its trick is sacrificing a little accuracy for simplicity. Because smaller datasets are easier to explore and visualize and make data analysis easier and faster for machine learning algorithms without dealing with extraneous variables.</p>
+<h3 id="eigen-decomposition-of-a-square-matrix">Eigen decomposition of a square matrix</h3>
+
+<p>What exactly happens when a matrix is multiplied by a vector? Suppose</p>
+
+\[A = \begin{bmatrix} 3 &amp; 1 \\ 1 &amp; 2\end{bmatrix}; x =  \begin{bmatrix} x_1 \\ x_2\end{bmatrix}\]
+
+<p>Then \(Ax = b = \begin{bmatrix} 3x_1+x_2 \\ x_1+2x_2\end{bmatrix}\)
+It can be seen that the multipling \(A\) by \(x\) is to recombine the elements of \(x\) in a linear manner to obtain \(b\). This recombination is called linear transformation.</p>
+
+<p>if we keep the norm of \(x\) satisfies the following condition.</p>
+
+\[x_1^2+x_2^2 = 1\]
 
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2019/pca/">Principal Component Analysis (PCA).</a></h3>
-        <p class="post-meta">April 21, 2019</p>
-        <p>a complete and simplified explanation of Principal Component Analysis (PCA).</p>
-      </li>
-    
-  </ul>
+  </article>
 
   
-
 
 </div>
 

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,7 +10,7 @@
   Yong  Zhuang
 
 
-  | blog
+  | Deep symbolic regression
 
 </title>
 <meta name="description" content="The personal website of Yong Zhuang.
@@ -37,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐉</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/deep_symbolic_regression/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -64,7 +63,80 @@
 <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
 
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/assets/js/distillpub/overrides.js"></script>
+    
   </head>
+
+  <d-front-matter>
+    <script async type="text/json">{
+      "title": "Deep symbolic regression",
+      "description": "using deep neural networks to estimate the underlying mathematical expressions describing a given dataset.",
+      "published": "",
+      "authors": [
+        
+        {
+          "author": "Yong Zhuang",
+          "authorURL": "https://yong-zhuang.github.io",
+          "affiliations": [
+            {
+              "name": "UMASS Boston",
+              "url": ""
+            }
+          ]
+        },
+        
+        {
+          "author": "Zihan Li",
+          "authorURL": "",
+          "affiliations": [
+            {
+              "name": "UMASS Boston",
+              "url": ""
+            }
+          ]
+        },
+        
+        {
+          "author": "Shafiqul Islam",
+          "authorURL": "https://engineering.tufts.edu/cee/people/faculty/shafiqul-islam",
+          "affiliations": [
+            {
+              "name": "Tufts",
+              "url": ""
+            }
+          ]
+        },
+        
+        {
+          "author": "Ping Chen",
+          "authorURL": "https://www.cs.umb.edu/~pchen/",
+          "affiliations": [
+            {
+              "name": "UMASS Boston",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
 
   <body class=" ">
 
@@ -99,8 +171,6 @@
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -234,29 +304,26 @@
 
     <!-- Content -->
 
-    <div class="container mt-5">
-      <div class="post">
+    <div class="post distill">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+      <d-title>
+        <h1>Deep symbolic regression</h1>
+        <p>using deep neural networks to estimate the underlying mathematical expressions describing a given dataset.</p>
+      </d-title>
 
+      <d-byline></d-byline>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2019/pca/">Principal Component Analysis (PCA).</a></h3>
-        <p class="post-meta">April 21, 2019</p>
-        <p>a complete and simplified explanation of Principal Component Analysis (PCA).</p>
-      </li>
-    
-  </ul>
-
-  
+      <d-article>
+        <p><img class="float-left w-25" src="/assets/img/symbolic_regression/dsr.jpg" />
+One of the core challenges of physics and artificial intelligence is to find a symbolic expression that matches the data of an unknown function, called symbolic regression. Although deep neural networks have shown impressive performance in solving complex tasks, deep learning methods for symbolic regression are still open. The major challenge of symbolic regression is that the space of mathematical expressions is discrete (in model structure) and continuous (in model parameters) and growing exponentially with the length of the expression. A suitable reward mechanism could inspire the model to identify the correct mathematical expression from the expression space. It means reinforcement learning is a potential solution for this problem.</p>
 
 
-</div>
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
 
     </div>
 
@@ -276,28 +343,7 @@
 
   </body>
 
-  <!-- Bootsrap & MDB scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
-
-  
-<!-- Mansory & imagesLoaded -->
-<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
-
-
-  
-
-
-<!-- Medium Zoom JS -->
-<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
-<script src="/assets/js/zoom.js"></script>
-
-
-<!-- Load Common JS -->
-<script src="/assets/js/common.js"></script>
-
+  <d-bibliography src="/assets/bibliography/hf/hf.bib">
+  </d-bibliography>
 
 </html>

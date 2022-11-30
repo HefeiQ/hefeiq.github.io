@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://yong-zhuang.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://yong-zhuang.github.io/" rel="alternate" type="text/html" /><updated>2022-11-30T04:17:19+00:00</updated><id>https://yong-zhuang.github.io/feed.xml</id><title type="html">blank</title><subtitle>The personal website of Yong Zhuang.
+</subtitle><entry><title type="html">Principal Component Analysis (PCA).</title><link href="https://yong-zhuang.github.io/blog/2019/pca/" rel="alternate" type="text/html" title="Principal Component Analysis (PCA)." /><published>2019-04-21T15:09:00+00:00</published><updated>2019-04-21T15:09:00+00:00</updated><id>https://yong-zhuang.github.io/blog/2019/pca</id><content type="html" xml:base="https://yong-zhuang.github.io/blog/2019/pca/"><![CDATA[<h3 id="what-is-principal-component-analysis">What is Principal Component Analysis?</h3>
+<p>Principal component analysis(PCA) is a dimensionality-reduction method commonly used to reduct the dimensionality of large datasets by transforming a large set of variables into a smaller one that still contains most of the information in the large set.</p>
+
+<p>Reducing the number of variables in a dataset naturally comes at the expense of accuracy. Its trick is sacrificing a little accuracy for simplicity. Because smaller datasets are easier to explore and visualize and make data analysis easier and faster for machine learning algorithms without dealing with extraneous variables.</p>
+<h3 id="eigen-decomposition-of-a-square-matrix">Eigen decomposition of a square matrix</h3>
+
+<p>What exactly happens when a matrix is multiplied by a vector? Suppose</p>
+
+\[A = \begin{bmatrix} 3 &amp; 1 \\ 1 &amp; 2\end{bmatrix}; x =  \begin{bmatrix} x_1 \\ x_2\end{bmatrix}\]
+
+<p>Then \(Ax = b = \begin{bmatrix} 3x_1+x_2 \\ x_1+2x_2\end{bmatrix}\)
+It can be seen that the multipling \(A\) by \(x\) is to recombine the elements of \(x\) in a linear manner to obtain \(b\). This recombination is called linear transformation.</p>
+
+<p>if we keep the norm of \(x\) satisfies the following condition.</p>
+
+\[x_1^2+x_2^2 = 1\]]]></content><author><name></name></author><category term="ml_fundamentals" /><category term="pca" /><summary type="html"><![CDATA[a complete and simplified explanation of Principal Component Analysis (PCA).]]></summary></entry></feed>

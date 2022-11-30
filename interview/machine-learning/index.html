@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>
+
+  Yong  Zhuang
+
+
+  | machine learning
+
+</title>
+<meta name="description" content="The personal website of Yong Zhuang.
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐉</text></svg>">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="canonical" href="/interview/machine-learning/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class=" ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar navbar-expand-md grey lighten-5 z-depth-1 -->
+    
+    <nav id="navbar" class="navbar navbar-light navbar-expand-md grey lighten-3 z-depth-1 sticky-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="https://yong-zhuang.github.io/">
+       <span class="font-weight-bold blue-color">Yong   Zhuang</span>
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/news/">
+                news
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                resume & cv
+                
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              
+              
+                <a class="dropdown-item" href=""><a class="nav-link" href="/assets/pdf/curriculum_vitae.pdf" target="_blank">Curriculum Vita</a></a>
+              
+              
+              
+                <a class="dropdown-item" href=""><a class="nav-link" href="/assets/pdf/resume.pdf" target="_blank">Resume</a></a>
+              
+              
+              </div>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                services
+                
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              
+              
+                <a class="dropdown-item" href=""><a class="nav-link" href="https://kdl-umb.github.io" target="_blank">KDLab</a></a>
+              
+              
+              
+                <a class="dropdown-item" href=""><a class="nav-link" href="https://ai-umb.github.io" target="_blank">AI-Association</a></a>
+              
+              
+              
+                <a class="dropdown-item" href=""><a class="nav-link" href="https://kdl-umb.github.io/tech-writing" target="_blank">Tech-writing Seminar</a></a>
+              
+              
+              </div>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+          
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="/assets/pdf/curriculum_vitae.pdf"
+              target="_blank">
+              cv
+            </a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="/assets/pdf/resume.pdf"
+              target="_blank">
+              resume
+            </a>
+          </li> -->
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h2 class="post-title text-uppercase blue-color-black font-weight-bold">machine learning</h2>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <p><a href="/assets/pdf/interview/Interview_Questions.pdf">“machine learning questions”</a></p>
+
+<p><strong>Briefly describe the flow of a complete machine learning project.</strong></p>
+<ul>
+  <li>Formulate it into a mathmatic problem</li>
+  <li>Collect samples</li>
+  <li>Feature preprocessing and feature selection</li>
+  <li>Model training and tuning</li>
+  <li>Determine the direction and idea of ​​model tuning: Common methods such as cross-validation, drawing learning curves, etc. overfitting, underfitting, Error analysis: whether it is a problem of parameters or algorithm selection, whether it is a problem of features or of the data itself…</li>
+  <li>Model fusion:</li>
+  <li>Model deployment: Engineering is result-oriented, and the effect of the model running online directly determines the success or failure of the model. It not only includes its accuracy, error, etc., but also its running speed (time complexity), resource consumption (space complexity), and whether the stability is acceptable.</li>
+</ul>
+
+<p><strong>What’s the trade-off between bias and variance?</strong></p>
+
+<p>In statistics and machine learning, the bias–variance tradeoff is the property of a model that the variance of the parameter estimated across samples can be reduced by increasing the bias in the estimated parameters. The bias–variance dilemma or bias–variance problem is the conflict in trying to simultaneously minimize these two sources of error that prevent supervised learning algorithms from generalizing beyond their training set:</p>
+
+<ul>
+  <li>
+    <p>What is bias?  <br />
+Bias is the difference between the average prediction of our model and the correct value which we are trying to predict. Model with high bias pays very little attention to the training data and oversimplifies the model. It always leads to high error on training and test data (underfitting).</p>
+  </li>
+  <li>
+    <p>What is variance?  <br />
+Variance is the variability of model prediction for a given data point or a value which tells us spread of our data. Model with high variance pays a lot of attention to training data and does not generalize on the data which it hasn’t seen before. As a result, such models perform very well on training data but has high error rates on test data (overfitting).</p>
+  </li>
+  <li>
+    <p>Mathematically</p>
+
+    <p>Let the variable we are trying to predict as Y and other covariates as X. We assume there is a relationship between the two such that</p>
+
+\[Y=f(X) + e\]
+
+    <p>Where $e$ is the error term and it’s normally distributed with a mean of $0$.</p>
+
+    <p>We will make a model \(\hat{f}(X)\) of \(f(X)\) using linear regression or any other modeling technique. So the expected squared error at a point $x$ is</p>
+
+\[Err(x)=E[(Y-\hat{f}(x))^2]\]
+
+    <p>The \(Err(x)\) can be further decomposed as</p>
+
+\[Err(x)=(E[\hat{f}(x)]-f(x))^2+E[(\hat{f}(x)-E[\hat{f}(x)])^2]+\sigma^2_e \\
+  =Bias^2+Variance+Irreducible Error\]
+
+    <p>\(Err(x)\) is the sum of \(Bias^2\), variance and the irreducible error.</p>
+
+    <p>Irreducible error is the error that can’t be reduced by creating good models. It is a measure of the amount of noise in our data. Here it is important to understand that no matter how good we make our model, our data will have certain amount of noise or irreducible error that can not be removed.</p>
+  </li>
+</ul>
+
+<p>The bias–variance decomposition is a way of analyzing a learning algorithm’s expected generalization error with respect to a particular problem as a sum of three terms, the bias, variance, and a quantity called the irreducible error, resulting from noise in the problem itself.</p>
+
+<p><strong>What is the difference between supervised and unsupervised machine learning?</strong></p>
+
+<ul>
+  <li>
+    <p><strong>Supervised Learning</strong>
+ In supervised machine learning, a model makes predictions or decisions based on past or labeled data. Labeled data refers to sets of data that are given tags or labels, and thus made more meaningful.</p>
+  </li>
+  <li>
+    <p><strong>Unsupervised Learning</strong>
+ In unsupervised learning, we don’t have labeled data. A model can identify patterns, anomalies, and relationships in the input data.</p>
+  </li>
+</ul>
+
+<p><strong>What is Overfitting, and How Can You Avoid It?</strong></p>
+
+<p>The Overfitting is a situation that occurs when a model learns the training set too well, taking up random fluctuations in the training data as concepts. These impact the model’s ability to generalize and don’t apply to new data.</p>
+
+<p>When a model is given the training data, it shows 100 percent accuracy—technically a slight loss. But, when we use the test data, there may be an error and low efficiency. This condition is known as overfitting.</p>
+
+<p>There are multiple ways of avoiding overfitting, such as:</p>
+<ul>
+  <li>Data normalization, imput missing values, increase sampls, and add noise</li>
+  <li>Regularization. It involves a cost term for the features involved with the objective function</li>
+  <li>Making a simple model. With lesser variables and parameters, the variance can be reduced</li>
+  <li>Cross-validation methods like k-folds can also be used</li>
+  <li>If some model parameters are likely to cause overfitting, techniques for regularization like LASSO can be used that penalize these parameters</li>
+  <li>dropout、regularization、batch normalization</li>
+</ul>
+
+<p><strong>Why normalization?</strong></p>
+
+<ul>
+  <li>After normalization, the speed of gradient descent to find the optimal solution is accelerated;</li>
+  <li>Normalization may improve the accuracy because of distance calculation</li>
+</ul>
+
+<p><strong>Normalization methods</strong></p>
+<ul>
+  <li>minmax</li>
+  <li>standand</li>
+  <li>non-linear: log</li>
+</ul>
+
+<p><a href="https://www.cnblogs.com/LBSer/p/4440590.html">reference</a></p>
+
+<p><strong>How Do You Handle Missing or Corrupted Data in a Dataset?</strong></p>
+
+<p>One of the easiest ways to handle missing or corrupted data is to drop those rows or columns or replace them entirely with some other value.</p>
+
+<p>There are two useful methods in Pandas:</p>
+
+<ul>
+  <li>IsNull() and dropna() will help to find the columns/rows with missing data and drop them</li>
+  <li>Fillna() will replace the wrong values with a placeholder value</li>
+</ul>
+
+<p><strong>How Can You Choose a Classifier Based on a Training Set Data Size?</strong>
+When the training set is small, a model that has a right bias and low variance seems to work better because they are less likely to overfit.</p>
+
+<p>For example, Naive Bayes works best when the training set is large. Models with low bias and high variance tend to perform better as they work fine with complex relationships.</p>
+
+<p><strong>Explain the Confusion Matrix with Respect to Machine Learning Algorithms.</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: left">Actual:Positive</th>
+      <th style="text-align: left">Actual:Negative</th>
+      <th style="text-align: left"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Predicted:Positive</td>
+      <td style="text-align: left">True Positive (TP)</td>
+      <td style="text-align: left">False Positive (FP) (Type I)</td>
+      <td style="text-align: left">Positive Predictive Value(PPV), Precision \(\frac{TP}{TP+FP}\)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Predicted:Negative</td>
+      <td style="text-align: left">False Negative (FN) (Type II)</td>
+      <td style="text-align: left">True Negative (TN)</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">True Positive Rate(TPR), Recall, Sensitivity \(\frac{TP}{TP+FN}\)</td>
+      <td style="text-align: left">False Positive Rate(FPR) \(\frac{FP}{FP+TN}\)</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>For a model to be accurate, the values across the diagonals should be high. The total sum of all the values in the matrix equals the total observations in the test data set.</p>
+
+<p>The F1-score combines the precision and recall of a classifier into a single metric by taking their harmonic mean.</p>
+
+\[F1-score = \frac{2(precision * recall)}{precision+recall}\]
+
+<ul>
+  <li>precision:  A low precision can also indicate a large number of False Positives(Type I).</li>
+  <li>recall: A low recall indicates many False Negatives(Type II).</li>
+</ul>
+
+<p>For any system to be able to achieve maximum Precision (no false positive) and maximum Recall (no false negative) there needs to be an absence of type I and II errors.</p>
+
+<p><strong>Explain how a ROC curve works.</strong></p>
+
+<p>An ROC curve (receiver operating characteristic curve) is a graph showing the performance of a classification model at all classification thresholds. This curve plots two parameters:</p>
+
+<ul>
+  <li>True Positive Rate</li>
+  <li>False Positive Rate
+An ROC curve plots TPR vs. FPR at different classification thresholds. Lowering the classification threshold classifies more items as positive, thus increasing both False Positives and True Positives. The following figure shows a typical ROC curve.</li>
+</ul>
+
+<p>AUC stands for “Area under the ROC Curve.” That is, AUC measures the entire two-dimensional area underneath the entire ROC curve (think integral calculus) from (0,0) to (1,1).</p>
+
+<p><strong>How is KNN different from k-means clustering?</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">K-means</th>
+      <th style="text-align: left">KNN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">K-Means is unsupervised</td>
+      <td style="text-align: left">KNN is supervised in nature</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">K-Means is a clustering algorithm</td>
+      <td style="text-align: left">KNN is a classification algorithm</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">The points in each cluster are similar to each other, and each cluster is different from its neighboring clusters</td>
+      <td style="text-align: left">It classifies an unlabeled observation based on its K (can be any number) surrounding neighbors</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong><a href="https://seeing-theory.brown.edu/bayesian-inference/index.html">What is Bayes’ Theorem? How is it useful in a machine learning context?</a></strong></p>
+
+<p>Bayes Theorem is a method to determine conditional probabilities – that is, the probability of one event occurring given that another event has already occurred. Because a conditional probability includes additional conditions – in other words, more data – it can contribute to more accurate results.</p>
+
+<p>Say a  bookstore manager has information about his customers’ age and income. He wants to know how book sales are distributed across three age-classes of customers: youth (18-35), middle-aged (35-60), and seniors (60+).</p>
+
+<p>Let us term our data X. In Bayesian terminology, X is called evidence. We have some hypothesis H, where we have some X that belongs to a certain class C.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Our goal is to determine the conditional probability of our hypothesis H given X, i.e., $$P(H</td>
+      <td>X)$$.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>In simple terms, by determining $$P(H</td>
+      <td>X)$$, we get the probability of X belonging to class C, given X. X has attributes of age and income – let’s say, for instance, 26 years old with an income of $2000. H is our hypothesis that the customer will buy the book.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Pay close attention to the following four terms:</p>
+
+<ul>
+  <li>
+    <p><strong>Evidence</strong> – As discussed earlier, \(P(X)\) is known as evidence. It is simply the probability that the customer will, in this case, be of age 26, earning $2000.</p>
+  </li>
+  <li>
+    <p><strong>Prior Probability</strong> – \(P(H)\), known as the prior probability, is the simple probability of our hypothesis – namely, that the customer will buy a book. This probability will not be provided with any extra input based on age and income. Since the calculation is done with lesser information, the result is less accurate.</p>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td><strong>Posterior Probability</strong> – $$P(H</td>
+          <td>X)$$ is known as the posterior probability. Here, P(H</td>
+          <td>X) is the probability of the customer buying a book (H) given X (that he is 26 years old and earns $2000).</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td><strong>Likelihood</strong> – $$P(X</td>
+          <td>H)$$ is the likelihood probability. In this case, given that we know the customer will buy the book, the likelihood probability is the probability that the customer is of age 26 and has an income of $2000.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p>Given these, Bayes Theorem states:</p>
+
+\[P(H | X) = \frac{P(X | H) * P(H)}{P(X)}\]
+
+<p><strong>What’s the difference between probability and likelihood?</strong></p>
+
+<ul>
+  <li>Probability refers to the chance that a particular outcome occurs based on the values of parameters in a model.</li>
+  <li>Likelihood refers to how well a sample provides support for particular values of a parameter in a model.</li>
+</ul>
+
+<p>When calculating the probability of some outcome, we assume the parameters in a model are trustworthy.</p>
+
+<p>However, when we calculate likelihood we’re trying to determine if we can trust the parameters in a model based on the sample data that we’ve observed.</p>
+
+<p><strong>Why is “Naive” Bayes naive?</strong></p>
+
+<p>Naive Bayes is called naive because it assumes that each input variable is independent. This is a strong assumption and unrealistic for real data; however, the technique is very effective on a large range of complex problems.</p>
+
+<p><strong>How is a decision tree pruned?</strong></p>
+
+<p>Pruning is a technique in machine learning that reduces the size of decision trees. It reduces the complexity of the final classifier, and hence improves predictive accuracy by the reduction of overfitting.</p>
+
+<p>Pruning can occur in:</p>
+
+<ul>
+  <li>Top-down fashion. It will traverse nodes and trim subtrees starting at the root</li>
+  <li>Bottom-up fashion. It will begin at the leaf nodes</li>
+</ul>
+
+<p><strong>What is a Random Forest?</strong></p>
+
+<p>A ‘random forest’ is a supervised machine learning algorithm that is generally used for classification problems. It operates by constructing multiple decision trees during the training phase. The random forest chooses the decision of the majority of the trees as the final decision.</p>
+
+<p><strong>How does random forest generate the forest? Additionally, why would we use it over other algorithms such as alogistic regression?</strong>
+Random forest generates the forest by essentially bootstrapping your dataset to create many different decision tree functions and then aggregating them together to create a superior model that has a lower variance than the individual decision trees have. Because the bootstrapped samples used to create the individual decision tree models are not truly independent, a random subset of the features from the dataset are used to split nodes for purity. This reduces the correlation between individual trees.</p>
+
+<p>The advantage that Random Forest has over models such as logistic regression is that it can capture non-linear relationships in the data and does not make assumptions about continuity in the feature values that models such as logistic regression make.</p>
+
+<p><strong>Let’s say you have a categorical variable with thousands of distinct values, how would you encode it?</strong></p>
+<ul>
+  <li>One-hot encoding:
+    <ul>
+      <li>pros - two levels numeric encoding, naive</li>
+      <li>cons - given the cardinality, dimensions increase, curse of dimensionlity</li>
+    </ul>
+  </li>
+  <li>label encoding:
+    <ul>
+      <li>pros - numeric vector given the categories</li>
+      <li>cons - does not add any predictive power, confusion around the interpretability</li>
+    </ul>
+  </li>
+  <li>count encoding: replacing categories with their counts computed on the train set.
+    <ul>
+      <li>pros - indicative of the frequency, predictive power</li>
+      <li>cons - sensitive to outliers, may result in collision - encoding two categories as the same value.</li>
+    </ul>
+  </li>
+  <li>Target encoding - proportion/avg of Y for this categorical level
+    <ul>
+      <li>pros - predictive power, better performance, learning from the labels</li>
+      <li>cons - chances of target leakage if not implemented properly</li>
+    </ul>
+  </li>
+</ul>
+
+<p>We apply One-Hot Encoding when:</p>
+
+<p>The categorical feature is not ordinal (like the countries above)
+The number of categorical features is less so one-hot encoding can be effectively applied
+We apply Label Encoding when:</p>
+
+<p>The categorical feature is ordinal (like Jr. kg, Sr. kg, Primary school, high school)
+ The number of categories is quite large as one-hot encoding can lead to high memory consumption
+<a href="https://wrosinski.github.io/fe_categorical_encoding/">reference</a></p>
+
+<p><strong>Which is more important to you? Model accuracy, or model performance?</strong>
+Well, you must know that model accuracy is only a subset of model performance. The accuracy of the model and performance of the model are directly proportional and hence better the performance of the model, more accurate are the predictions.</p>
+
+<p><strong>How would you handle an imbalanced dataset?</strong></p>
+<ul>
+  <li>
+    <ol>
+      <li>Choose Proper Evaluation Metric
+  F1 score keeps the balance between precision and recall and improves the score only if the classifier identifies more of a certain class correctly.</li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>Resampling (Oversampling and Undersampling)</li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>SMOTE
+  Synthetic Minority Oversampling Technique or SMOTE is another technique to oversample the minority class. Simply adding duplicate records of minority class often don’t add any new information to the model. In SMOTE new instances are synthesized from the existing data. If we explain it in simple words, SMOTE looks into minority class instances and use k nearest neighbor to select a random nearest neighbor, and a synthetic instance is created randomly in feature space.</li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>BalancedBaggingClassifier
+  When we try to use a usual classifier to classify an imbalanced dataset, the model favors the majority class due to its larger volume presence. A BalancedBaggingClassifier is the same as a sklearn classifier but with additional balancing. It includes an additional step to balance the training set at the time of fit for a given sampler. This classifier takes two special parameters “sampling_strategy” and “replacement”. The sampling_strategy decides the type of resampling required (e.g. ‘majority’ – resample only the majority class, ‘all’ – resample all classes, etc) and replacement decides whether it is going to be a sample with replacement or not.</li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li>Threshold moving</li>
+    </ol>
+  </li>
+</ul>
+
+<p><strong>When should you use classification over regression?</strong></p>
+
+<p>Classification is about identifying group membership while regression technique involves predicting a response. Both techniques are related to prediction, where classification predicts the belonging to a class whereas regression predicts the value from a continuous set. Classification technique is preferred over regression when the results of the model need to return the belongingness of data points in a dataset to specific explicit categories. (For instance, when you want to find out whether a name is male or female instead of just finding it how correlated they are with male and female names.</p>
+
+<p><strong>Name an example where ensemble techniques might be useful.</strong></p>
+
+<p>Ensemble Technique is a machine learning method or technique that combines various base models in order to produce one optimal and predictive model. reduce overfitting and more robust</p>
+
+<p>A good example of how ensemble methods are commonly used to solve data science problems is the random forest algorithm (having multiple CART models). It performs better compared to individual CART model by classifying a new object where each tree gives “votes” for that class and the forest chooses the classification having the most votes (over all the trees in the forest). In case of regression, it takes the average of outputs of different trees.</p>
+
+<p><strong>How do you ensure you’re not overfitting with a model?</strong></p>
+<ul>
+  <li>1- Keep the model simpler: remove some of the noise in the training data.</li>
+  <li>2- Use cross-validation techniques such as k-folds cross-validation.</li>
+  <li>3- Use regularization techniques such as LASSO</li>
+</ul>
+
+<p><strong>What evaluation approaches would you work to gauge the effectiveness of a machine learning model?</strong></p>
+
+<p>Use the kernel function to ensure that there is no data in the high-dimensional space to calculate the coordinates of the point, and the inner product in the space can be calculated. Many algorithms can express such an inner product form, using kernel energy to ensure that low-dimensional data is calculated in a high-dimensional space.</p>
+
+<p><strong>What is Principal Component Analysis?</strong></p>
+
+<p>Principal Component Analysis or PCA is a multivariate statistical technique that is used for analyzing quantitative data. The objective of PCA is to reduce higher dimensional data to lower dimensions, remove noise, and extract crucial information such as features and attributes from large amounts of data.</p>
+
+<p><strong>What Are Some Methods of Reducing Dimensionality?</strong></p>
+
+<p>You can reduce dimensionality by combining features with feature engineering, removing collinear features, or using algorithmic dimensionality reduction.</p>
+
+<p><strong>How would you evaluate a logistic regression model?</strong></p>
+<ul>
+  <li>Accuracy Score</li>
+  <li>Recall: Recall can be thought of as a measure of a classifiers completeness. A low recall indicates many False Negatives.</li>
+  <li>Precision: Precision can be thought of as a measure of a classifiers exactness. A low precision can also indicate a large number of False Positives.</li>
+  <li>F1 Score, if you are dealing with a imbalanced dataset this is a must. If you are looking to select a model that is balanced between precision and recall F measure should be used.</li>
+</ul>
+
+<p><strong>What’s the “kernel trick” and how is it useful?</strong></p>
+
+<p>Kernel trick allows the inner product of mapping function instead of the data points. The trick is to identify the kernel functions which can be represented in place of the inner product of mapping functions. Kernel functions allow easy computation. In essence, what the kernel trick does for us is to offer a more efficient and less expensive way to transform data into higher dimensions.</p>
+
+<p><strong>Explain the difference between L1 and L2 regularization.</strong></p>
+
+<ul>
+  <li>L1 regularization penalizes the sum of absolute values of the weights, whereas L2 regularization penalizes the sum of squares of the weights.</li>
+  <li>The L1 regularization solution is sparse. The L2 regularization solution is non-sparse.</li>
+  <li>L2 regularization doesn’t perform feature selection, since weights are only reduced to values near 0 instead of 0. L1 regularization has built-in feature selection.</li>
+  <li>L1 regularization is robust to outliers, L2 regularization is not.</li>
+  <li>L1 is a Laplace distribution and L2 is a Gaussian distribution.</li>
+</ul>
+
+<p><strong>What’s a Fourier transform?</strong></p>
+
+<p>The Fourier transform is a mathematical function that decomposes a waveform, which is a function of time, into the frequencies that make it up. The result produced by the Fourier transform is a complex valued function of frequency. The absolute value of the Fourier transform represents the frequency value present in the original function and its complex argument represents the phase offset of the basic sinusoidal in that frequency.</p>
+
+<p><strong>Q9: What’s your favorite algorithm, and can you explain it to me in less than a minute?</strong></p>
+
+<p><strong>Q13: What is deep learning, and how does it contrast with other machine learning algorithms?</strong></p>
+
+<p><strong>Q14: What’s the difference between a generative and discriminative model?</strong>
+Core Idea: Discriminative models draw boundaries in the data space, while generative models try to model how data is placed throughout the space. A generative model focuses on explaining how the data was generated, while a discriminative model focuses on predicting the labels of the data.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Mathematical Intuition: In mathematical terms, a discriminative machine learning trains a model which is done by learning parameters that maximize the conditional probability P(Y</td>
+      <td>X), while on the other hand, a generative model learns parameters by maximizing the joint probability of P(X, Y).</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Outliers: Generative models have more impact on outliers than discriminative models.</p>
+
+<p>Computational Cost: Discriminative models are computationally cheap as compared to generative models.</p>
+
+<p>generative models:</p>
+<ul>
+  <li>Naive Bayes, Hidden Markov Models, Gaussian Mixture Models, Document Topic Generation (LDA), Restricted Boltzmann Machines</li>
+</ul>
+
+<p>discriminative models:</p>
+<ul>
+  <li>K-Nearest Neighbors, SVM, Decision Trees, Perceptrons, Linear Discriminant Analysis (LDA), Linear Regression, Traditional Neural Networks, Logistic Regression, Boosting, Conditional Random Fields</li>
+</ul>
+
+<p><a href="https://www.analyticsvidhya.com/blog/2021/07/deep-understanding-of-discriminative-and-generative-models-in-machine-learning/#:~:text=Discriminative%20models%20draw%20boundaries%20in,the%20labels%20of%20the%20data.">reference</a></p>
+
+<p><strong>What cross-validation technique would you use on a time series dataset?</strong></p>
+
+<p>With time series data, particular care must be taken in splitting the data in order to prevent data leakage. In order to accurately simulate the “real world forecasting environment, in which we stand in the present and forecast the future” (Tashman 2000), the forecaster must withhold all data about events that occur chronologically after the events used for fitting the model. So, rather than use k-fold cross-validation, for time series data we utilize hold-out cross-validation where a subset of the data (split temporally) is reserved for validating the model performance. For example, see following figure where the test set data comes chronologically after the training set. Similarly, the validation set comes chronologically after the training subset.
+<img class="float-left" src="/assets/img/interview/nested_cv.png" />
+<img class="float-left" src="/assets/img/interview/summary_nested_cv.png" /></p>
+
+<p><strong>What is bagging?</strong></p>
+
+<p>Bagging, also known as bootstrap aggregation, is the ensemble learning method that is commonly used to reduce variance within a noisy dataset. In bagging, a random sample of data in a training set is selected with replacement—meaning that the individual data points can be chosen more than once. After several data samples are generated, these weak models are then trained independently, and depending on the type of task—regression or classification, for example—the average or majority of those predictions yield a more accurate estimate.</p>
+
+<p>As a note, the random forest algorithm is considered an extension of the bagging method, using both bagging and feature randomness to create an uncorrelated forest of decision trees.</p>
+
+<p><strong>Bagging vs. boosting</strong></p>
+
+<p>Bagging and boosting are two main types of ensemble learning methods. As highlighted in this study (PDF, 248 KB) (link resides outside IBM), the main difference between these learning methods is the way in which they are trained. In bagging, weak learners are trained in parallel, but in boosting, they learn sequentially. This means that a series of models are constructed and with each new model iteration, the weights of the misclassified data in the previous model are increased. This redistribution of weights helps the algorithm identify the parameters that it needs to focus on to improve its performance. AdaBoost, which stands for “adaptative boosting algorithm,” is one of the most popular boosting algorithms as it was one of the first of its kind. Other types of boosting algorithms include XGBoost, GradientBoost, and BrownBoost.</p>
+
+<p>Another difference in which bagging and boosting differ are the scenarios in which they are used. For example, bagging methods are typically used on weak learners which exhibit high variance and low bias, whereas boosting methods are leveraged when low variance and high bias is observed.</p>
+
+<p><strong>What does S (stochastic) in SGD stand for?</strong></p>
+<ul>
+  <li>Optimization algorithms that use the entire training set are called batch or deterministic gradient algorithms because all samples are processed simultaneously in one large batch.</li>
+  <li>Optimization algorithms that use only a single sample at a time are sometimes called stochastic or online algorithms.</li>
+  <li>Most algorithms for deep learning fall somewhere in between, using more than one rather than all training samples. They are now commonly referred to simply as stochastic methods.</li>
+</ul>
+
+<p><strong>LSTM structure derivation, why is it better than RNN?</strong></p>
+
+<p>Derive the changes of forget gate, input gate, cell state, hidden information, etc.; because LSTM has in and out and the current cell informaton is superimposed after being controlled by the input gate, RNN is multiplication, so LSTM can prevent the gradient from vanishing or exploding.</p>
+
+<p><strong>Gradients vanishing and exploding</strong></p>
+<ul>
+  <li>Gradient clipping, regularization: WGAN</li>
+  <li>relu、leakrelu、elu</li>
+  <li>batchnorm</li>
+  <li>residual connection</li>
+  <li>LSTM</li>
+</ul>
+
+<p><strong>covariance and correlation</strong></p>
+
+<p>covariance(A, C) cannot compare with covariance(B, C) because of the different ranges of A and B Correlation is the standard covariance.
+<a href="https://www.zhihu.com/question/20852004">reference</a></p>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2022 Yong  Zhuang.
+    
+    
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Medium Zoom JS -->
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+<script src="/assets/js/zoom.js"></script>
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+</html>
