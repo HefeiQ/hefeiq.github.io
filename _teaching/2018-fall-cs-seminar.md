@@ -4,6 +4,7 @@ course_name: CS Seminar
 course_number: CS Seminar
 semester: 2018 fall
 semester_index: 2018_3
+affiliation: umb 
 role: Lecturer
 ---
 The CS Seminar offers academic support to students enrolled in various computer science courses (e.g., CS210, CS310, CS420) and follows the program of study outlined in each syllabus. It offers individual and small-group tutoring that is tailored
