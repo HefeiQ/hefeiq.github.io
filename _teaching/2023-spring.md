@@ -8,8 +8,6 @@ affiliation: heros
 role: Instructor
 ---
 In this course, students will learn how to develop responsive and interactive Google-Map-Based web applications. 
-<!-- We begin by learning basics including HTML, CSS, Javascript, as well as advanced client-side frameworks such as Material-UI and React.js. We will also briefly touch on server-side issues including a web server (Node.js), data storages (Web Storage, MongoDB, and Firebase), and asynchronous communication between a client and a server. The course will culminate with a final project where students take a human-centered design approach to address the need of people by building a sophisticated web application. -->
-
 - **Schedule:**:
     - **Dec, 17, 2022:**  Google Map API Tutorial: Introduction
     - **Feb, 11, 2023:**  Development Environment Setup
