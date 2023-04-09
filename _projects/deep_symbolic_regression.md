@@ -1,7 +1,8 @@
 ---
 layout: distill
 title: Deep symbolic regression
-description: Reinforcement learning can be leveraged to address the challenge of identifying the correct mathematical expression from an exponentially growing space of expressions that may describe a given dataset. By using a suitable reward mechanism, the reinforcement learning approach encourages the model to explore and find the optimal solution in this vast space of potential mathematical expressions.
+description: Using a suitable reward mechanism with the reinforcement learning to identify the correct mathematical expression from an exponentially growing space of expressions that may describe a given dataset.
+# Reinforcement learning can be leveraged to address the challenge of identifying the correct mathematical expression from an exponentially growing space of expressions that may describe a given dataset. By using a suitable reward mechanism, the reinforcement learning approach encourages the model to explore and find the optimal solution in this vast space of potential mathematical expressions.
 img: /assets/img/symbolic_regression/deep_symbolic_regression.jpg
 start: 2021
 publish: 

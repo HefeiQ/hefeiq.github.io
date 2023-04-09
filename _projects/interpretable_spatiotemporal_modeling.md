@@ -1,7 +1,8 @@
 ---
 layout: distill
 title: Interpretable Spatio-Temporal Modeling
-description: This study presents the development of a long-lead forecasting model called Galaxy, which combines ensemble learning and the multi-Markov-Blankets concept in Bayesian probability theory to provide accurate predictions of extreme precipitation events. The model identifies predictable and interpretable features from a high-dimensional mixed distribution feature space, allowing for a better understanding of the factors contributing to extreme precipitation events. The interpretable insights provided by Galaxy can be useful in preventing and mitigating the effects of these potentially harmful weather events.
+description: Combined ensemble learning and the multi-Markov-Blankets concept in Bayesian probability theory to provide accurate predictions of extreme precipitation events.
+# This study presents the development of a long-lead forecasting model called Galaxy, which combines ensemble learning and the multi-Markov-Blankets concept in Bayesian probability theory to provide accurate predictions of extreme precipitation events. The model identifies predictable and interpretable features from a high-dimensional mixed distribution feature space, allowing for a better understanding of the factors contributing to extreme precipitation events. The interpretable insights provided by Galaxy can be useful in preventing and mitigating the effects of these potentially harmful weather events.
 img: /assets/img/spatio_temporal_modeling/galaxy.jpg
 start: 2018
 publish: 2018
