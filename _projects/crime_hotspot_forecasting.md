@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: Crime Hot Spot Forecasting
-description: In our work on crime hotspots forecasting, we aimed to improve the effectiveness and efficiency of crime prevention strategies by developing a model that could capture latent spatio-temporal features. To achieve this, we integrated two powerful neural network architectures: transposed convolutions and deep recurrent networks. The transposed convolutions were used to learn the spatial spread of features from the input data, while the recurrent network was used to model the temporal evolution. By combining these two architectures, we were able to capture complex spatio-temporal patterns in crime data and generate accurate forecasts of crime hotspots.
+description: In our work on crime hotspots forecasting, we aimed to improve the effectiveness and efficiency of crime prevention strategies by developing a model that could capture latent spatio-temporal features. To achieve this, we integrated two powerful neural network architectures, transposed convolutions and deep recurrent networks. The transposed convolutions were used to learn the spatial spread of features from the input data, while the recurrent network was used to model the temporal evolution. By combining these two architectures, we were able to capture complex spatio-temporal patterns in crime data and generate accurate forecasts of crime hotspots.
 img: /assets/img/crime/crime.jpg
 start: 2017
 publish: 2017

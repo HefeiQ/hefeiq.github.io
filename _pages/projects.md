@@ -60,12 +60,12 @@ horizontal: true
         <div class="card mt-3">
             <div class="p-3">
               <div class="row">
-                <div class="col-sm-2 text-left text-sm-left">
+                <!-- <div class="col-sm-2 text-left text-sm-left">
                   <span class="badge font-weight-bold global-theme-block text-uppercase align-middle">
                     {{ project.start}}
                   </span>
-                </div>
-                <div class="col-sm-7">
+                </div> -->
+                <div class="col-sm-9">
                   <h4 class="font-weight-bold">{{ project.title}}</h4>
                   <h6 class="font-italic mt-2 mt-sm-0">{{project.collaborators}}</h6>
                   <article>
