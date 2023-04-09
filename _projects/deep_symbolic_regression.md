@@ -1,8 +1,8 @@
 ---
 layout: distill
 title: Deep symbolic regression
-description: using deep neural networks to estimate the underlying mathematical expressions describing a given dataset.
-img: /assets/img/symbolic_regression/dsr.jpg
+description: Reinforcement learning can be leveraged to address the challenge of identifying the correct mathematical expression from an exponentially growing space of expressions that may describe a given dataset. By using a suitable reward mechanism, the reinforcement learning approach encourages the model to explore and find the optimal solution in this vast space of potential mathematical expressions.
+img: /assets/img/symbolic_regression/deep_symbolic_regression.jpg
 start: 2021
 publish: 
 
@@ -28,6 +28,6 @@ authors:
 
 bibliography: hf/hf.bib
 ---
-<img class="float-left w-25" src="{{ 'symbolic_regression/dsr.jpg' | prepend: '/assets/img/' | relative_url }}"/>
-One of the core challenges of physics and artificial intelligence is to find a symbolic expression that matches the data of an unknown function, called symbolic regression. Although deep neural networks have shown impressive performance in solving complex tasks, deep learning methods for symbolic regression are still open. The major challenge of symbolic regression is that the space of mathematical expressions is discrete (in model structure) and continuous (in model parameters) and growing exponentially with the length of the expression. A suitable reward mechanism could inspire the model to identify the correct mathematical expression from the expression space. It means reinforcement learning is a potential solution for this problem.
+<img class="float-left w-25" src="{{ 'symbolic_regression/deep_symbolic_regression.jpg' | prepend: '/assets/img/' | relative_url }}"/>
+Symbolic regression is a challenging task in both physics and artificial intelligence, requiring the identification of a symbolic expression that accurately fits unknown function data. Although deep neural networks have shown remarkable performance in solving complex tasks, developing deep learning methods for symbolic regression remains an open issue. The key challenge in symbolic regression is the exponential growth of the space of mathematical expressions, which is both discrete (in model structure) and continuous (in model parameters). To find the optimal solution within this space, an appropriate reward mechanism is needed to guide the model in identifying the correct mathematical expression.  It means reinforcement learning is a potential solution for this problem.
 

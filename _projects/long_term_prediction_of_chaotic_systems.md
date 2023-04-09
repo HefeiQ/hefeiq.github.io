@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: Long-term prediction of chaotic systems
-description: using new deep architectures to learn the state evolution of a variety of chaotic dynamical systems and significantly extend the prediction time.
+description: In our research, we introduced a novel loss function called the Lyapunov Horizon loss, which is capable of measuring the error divergence of a forecasting sequence as it evolves in a chaotic system. To enable this, we developed new deep recurrent architectures that could learn the state evolution of various chaotic dynamical systems to substantially extend the prediction horizon. Our approach has the potential to improve the accuracy and reliability of chaotic system predictions.
 img: /assets/img/chaos/hf.jpg
 importance: 2
 redirect:   
@@ -40,7 +40,7 @@ bibliography: hf/hf.bib
 ---
 The work on this project has published in ICDM 2022. Take a look at ["Widening the Time Horizon: Predicting the Long-Term Behavior of Chaotic Systems"]({{ 'zhuang2022hf/paper.pdf' | prepend: '/assets/pdf/' | relative_url }}) for more details.
 ### Objective
-<img class="float-right w-25" src="{{ page.img | relative_url }}"/>
+<img class="float-right w-50" src="{{ page.img | relative_url }}"/>
 The study of chaotic systems poses a significant challenge not only for theoretical research, but also for many practical applications. Chaotic behavior is prevalent in various nonlinear dynamical systems, including but not limited to climate dynamics, weather prediction, and the spatiotemporal dynamics of virus spread. Due to the intricate and unpredictable nature of chaotic systems, it is imperative to have a reliable solution that can handle their complex spatiotemporal dynamics and their high sensitivity to initial and boundary conditions. Achieving a high level of accuracy is crucial for numerous applications since even slight errors in the early steps of chaotic system predictions can lead to significant errors in future steps.
 
 ### Proposed Model
