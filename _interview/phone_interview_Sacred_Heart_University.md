@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Sacred Heart
+title: Faculty Position
 ---
-
+["Phone Interview Questions"]({{ 'interview/faculty_phone_interview.pdf' | prepend: '/assets/pdf/' | relative_url }})
 ### Persional questions
 
 **Are you still interested in the position?**
