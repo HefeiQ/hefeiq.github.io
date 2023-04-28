@@ -11,7 +11,7 @@
   Yong  Zhuang
 
 
-  | blog
+  | projects
 
 </title>
 <meta name="description" content="The personal website of Yong Zhuang.
@@ -37,7 +37,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐉</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -130,9 +130,11 @@
           
           
           
-          <li class="nav-item ">
+          <li class="nav-item active">
               <a class="nav-link" href="/projects/">
                 projects
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -237,24 +239,120 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h2 class="post-title text-uppercase blue-color-black font-weight-bold">projects</h2>
+    <p class="post-description">some of the projects I have worked on.</p>
+  </header>
+
+  <article>
+    <div class="projects">
+  
+  <!-- Display projects without categories -->
+    
+    <!-- Generate cards for each project -->
+    
+      <div class="grid">
+        
+          <div class="grid-item">
+  
+  <a href="/projects/deep_symbolic_regression/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/symbolic_regression/deep_symbolic_regression.jpg" alt="project thumbnail">
+      
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">Deep symbolic regression</h2>
+        <p class="card-text">Using a suitable reward mechanism with the reinforcement learning to identify the correct mathematical expression from an exponentially growing space of expressions that may describe a given dataset.</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
 
 
-  <ul class="post-list">
+
+
+        
+          <div class="grid-item">
+  
+  <a href="/projects/long_term_prediction_of_chaotic_systems/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/chaos/hf.jpg" alt="project thumbnail">
+      
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">Long-term prediction of chaotic systems</h2>
+        <p class="card-text">A new deep recurrent architecture capable of learning the state evolution of various chaotic dynamical systems, substantially extending the prediction horizon.</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+
+
+
+        
+          <div class="grid-item">
+  
+  <a href="/projects/crime_hotspot_forecasting/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/crime/crime.jpg" alt="project thumbnail">
+      
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">Crime Hot Spot Forecasting</h2>
+        <p class="card-text">Integrated transposed convolutions and deep recurrent networks to capture complex spatio-temporal patterns in crime data and generate accurate forecasts of crime hotspots.</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+
+
+
+        
+          <div class="grid-item">
+  
+  <a href="/projects/interpretable_spatiotemporal_modeling/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/spatio_temporal_modeling/galaxy.jpg" alt="project thumbnail">
+      
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">Interpretable Spatio-Temporal Modeling</h2>
+        <p class="card-text">Combined ensemble learning and the multi-Markov-Blankets concept in Bayesian probability theory to provide accurate predictions of extreme precipitation events.</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+
+
+
+        
+      </div>
     
-      <li>
-        <h3><a class="post-title" href="/blog/2019/pca/">Principal Component Analysis (PCA).</a></h3>
-        <p class="post-meta">April 21, 2019</p>
-        <p>a complete and simplified explanation of Principal Component Analysis (PCA).</p>
-      </li>
-    
-  </ul>
 
   
 
+</div>
+
+  </article>
 
 </div>
 
