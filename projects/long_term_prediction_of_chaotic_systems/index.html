@@ -72,8 +72,8 @@
   <d-front-matter>
     <script async type="text/json">{
       "title": "Long-term prediction of chaotic systems",
-      "description": "using new deep architectures to learn the state evolution of a variety of chaotic dynamical systems and significantly extend the prediction time.",
-      "published": "",
+      "description": "A new deep recurrent architecture capable of learning the state evolution of various chaotic dynamical systems, substantially extending the prediction horizon.",
+      "published": "2022",
       "authors": [
         
         {
@@ -330,23 +330,26 @@
 
       <d-title>
         <h1>Long-term prediction of chaotic systems</h1>
-        <p>using new deep architectures to learn the state evolution of a variety of chaotic dynamical systems and significantly extend the prediction time.</p>
+        <p>A new deep recurrent architecture capable of learning the state evolution of various chaotic dynamical systems, substantially extending the prediction horizon.</p>
       </d-title>
 
       <d-byline></d-byline>
 
       <d-article>
-        <p>The work on this project is under review in a journal.</p>
-<h2 id="objective">Objective</h2>
-<p><img class="float-right w-25" src="/assets/img/chaos/hf.jpg" />
-Understanding chaotic systems are challenging not only for theoretical research but also for many critical applications. Chaotic behavior is found in many nonlinear dynamical systems, such as climate dynamics, weather prediction, and the space-time dynamics of virus spread.  A reliable solution for these systems must handle their complex space-time dynamics and sensitive dependence on initial conditions.</p>
+        <p>The work on this project has published in ICDM 2022. Take a look at <a href="/assets/pdf/zhuang2022hf/paper.pdf">“Widening the Time Horizon: Predicting the Long-Term Behavior of Chaotic Systems”</a> for more details.</p>
+<h3 id="objective">Objective</h3>
+<p><img class="float-right w-50" src="/assets/img/chaos/hf.jpg" />
+The study of chaotic systems poses a significant challenge not only for theoretical research, but also for many practical applications. Chaotic behavior is prevalent in various nonlinear dynamical systems, including but not limited to climate dynamics, weather prediction, and the spatiotemporal dynamics of virus spread. Due to the intricate and unpredictable nature of chaotic systems, it is imperative to have a reliable solution that can handle their complex spatiotemporal dynamics and their high sensitivity to initial and boundary conditions. Achieving a high level of accuracy is crucial for numerous applications since even slight errors in the early steps of chaotic system predictions can lead to significant errors in future steps.</p>
 
-<h2 id="proposed-model">Proposed Model</h2>
-<p>We develop a deep learning framework to push the time horizon at which reliable predictions can be made further into the future by better evaluating the consequences of local errors when modeling nonlinear systems.  Our approach  observes  the  future  trajectories  of  initial  errors  at  a  time  horizon  to  model  the  evolution  of  the  loss to  that  point  with  two  major  components:</p>
+<h3 id="proposed-model">Proposed Model</h3>
+<p>To extend the time horizon for making reliable predictions in chaotic systems, we proposed the notion of the <strong>Lyapunov Horizon Loss</strong>. This loss measures how the error divergence of a forecasting sequence evolves in a chaotic system. We developed a deep learning framework that observes the future trajectories of initial errors at a given time horizon to model the evolution of the loss up to that point. The framework has two major components:</p>
 <ul>
-  <li>a recurrent  architecture, Error  Trajectory  Tracing, designed to trace the trajectories of predictive errors through phase space</li>
-  <li>a training regime, Horizon Forcing, pushes the model’s focus out to a predetermined time horizon.</li>
+  <li><strong>Error Trajectory Tracing:</strong> It utilizes a recurrent “tower” architecture to track the evolution of small errors in the initial conditions through phase space. This allows us to better understand the behavior of the system and make more accurate predictions about its future evolution.</li>
+  <li><strong>Horizon Forcing:</strong> is a training regime that optimizes the <strong>Lyapunov Horizon Loss</strong> based on short-term predictions first, and then shifts the focus to the long term as training progresses. By doing so, we can ensure that our model is capable of making reliable predictions over a longer time horizon than previous methods.</li>
 </ul>
+
+<h3 id="experiments">Experiments</h3>
+<p>Through the combination of these two components, our proposed model achieves a significant improvement in the accuracy of predictions for nonlinear systems. We validated our approach on three classic chaotic systems and four real-world time series prediction tasks with chaotic characteristics. Our model demonstrates superior performance compared to state-of-the-art methods.</p>
 
       </d-article>
 
@@ -362,7 +365,7 @@ Understanding chaotic systems are challenging not only for theoretical research 
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2022 Yong  Zhuang.
+    &copy; Copyright 2023 Yong  Zhuang.
     
     
     
