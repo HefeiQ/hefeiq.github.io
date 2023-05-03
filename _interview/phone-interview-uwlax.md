@@ -49,9 +49,11 @@ I also led teams in creating an after-sales service management platform that str
 
 Additionally, I participated in the development of a secure remote solution for bank terminals, which enabled web-based remote control and system updates. We utilized C#, ASP.Net, AJAX, MS SQL Server, CSS, JavaScript, video conversion, and Bing Map for this project.
 
+I've worked as a machine learning scientist at Radial Analytics during my internship, I used Python, Tensorflow, AWS, NLP, feature selection, and deep learning to design a machine learning system to automatically generate predictive models for given needs. I have aslo worked as a machine learning engineer at Constant Contact after my PhD program. I used Python, and AWS to build a machine learning system to estimate customer lifetime value (CLV) to help marketing teams develop marketing strategies.
 
 ### Teaching related questions
-  **What teaching experience do you have?**
+
+**What teaching experience do you have?**
 
 I spent four semesters working as an instructor at the student success center, helping students succeed in their CS courses like Theory of Computation, Data Structures, and Algorithms. Every week, I'd give a 60-minute presentation where I'd:
 
@@ -68,7 +70,7 @@ I also served as a teaching assistant for five semesters in courses such as Arti
 
 **What courses would you like to teach?**
 
-With my industry experience I am excited about teaching following courses:
+With my industry experience I am excited about teaching the courses like:
 
 - CS 101 Introduction to Computing
 - CS 103 Elementary Database Principles and Design
@@ -100,13 +102,13 @@ Because of my expertise in machine learning and data mining, I am excited about 
 - CS 461/561 Introduction to Data Science
 - CS 476/576 Data Visualization
 
-I'm also really excited about designing new courses to meet the needs of students and the department and teach:
+I'm also really excited about designing new courses to meet the needs of students and the department. I can teach new course at :
 
 - CS 419/519 Topics in Computer Science
 
 **What other types of courses would you be interested in developing and teaching?**
 
-Considering my research background, I'm really interested in developing and teaching courses related to machine learning and data mining. This could include topics like deep learning, reinforcement learning, natural language processing, and large language models. I'm excited to share my knowledge and expertise in these areas, and I believe they will be beneficial to the students and the department as a whole.
+Considering my research background, I'm really interested in developing and teaching courses related to machine learning and data mining. This could include topics like deep learning, reinforcement learning, natural language processing, large language models, and time series analysis. I'm excited to share my knowledge and expertise in these areas, and I believe they will be beneficial to the students and the department as a whole.
 
 **What kind of split are you looking for between teaching and research?**
 
@@ -122,7 +124,7 @@ In my CS Seminar class, (I found the most challenge part in teaching is the dive
 
 - Second, I offer extra support for those who are less prepared. For example, I hold additional review sessions to give more guidance and help them build the foundational knowledge they need. For students who can't be on campus often, I use online discussion sections so they can ask questions after class.
 
-- Lastly, I encourage peer-to-peer learning in the classroom by promoting collaboration and exchanging diverse perspectives. By giving group projects, creating study groups, and fostering a supportive learning environment, students can learn from each other and develop essential skills like communication, problem-solving, and teamwork. This approach has been effective in my course.
+- Lastly, I encourage peer-to-peer learning in the classroom by promoting collaboration and exchanging diverse perspectives. By giving group projects, creating study groups, and fostering a supportive learning environment, students can learn from each other and develop essential skills like communication, problem-solving, and teamwork. 
 
 **How to involve undergraduate student in your research?**
 
@@ -132,26 +134,28 @@ In my CS Seminar class, (I found the most challenge part in teaching is the dive
 
 **How do you combine research and teaching?**
 
-The main purpose of undergraduate research-based teaching at the classroom guidance level is to highlight the research characteristics of important knowledge points in addition to imparting knowledge, inspiring students to take initiative in thinking, guiding them to understand, analyze and solve problems, and stimulating their interest in research and the application of learned knowledge and methods to practical situations. To achieve this, I will provide students with state-of-the-art algorithm literature and allow them to either choose an existing algorithm or develop a new one for a real-world task. Lastly, students will compete with each other, and the winner will be announced, receiving a bonus on their final grade.
+The main purpose of undergraduate research-based teaching at the classroom guidance level is to highlight the research characteristics of important knowledge points in addition to imparting knowledge, inspiring students to take the initiative in thinking, guiding them to understand, analyze and solve problems, and stimulating their interest in research and the application of learned knowledge and methods to practical situations. 
+
+To achieve this, I'll provide students with state-of-the-art algorithm literature and let them choose an existing algorithm or create a new one to tackle real-world challenges. Finally, students will compete against each other, with the winner earning a bonus on their final grade.
 
 **How to collaborate with our faculty?**
 
-I noticed that Dr. Mathias is interested in genetic algorithms. Right now, I'm working on a project that explores using reinforcement learning in symbolic regression, which is inspired by genetic programming. I think there might be an opportunity for us to collaborate on this.
+I noticed that Dr. Mathias /mai sai i s/ is interested in genetic algorithms. Right now, I'm working on a project that explores using reinforcement learning in symbolic regression, which is inspired by genetic programming. I think there might be an opportunity for us to collaborate on this.
 
-As for Dr. Sauppe, her research focuses on causal inference. A current popular research topic is integrating causal inference into deep learning. I believe there could be a chance for us to work together on this as well.
+As I found Dr. Sauppe /s au/'s research focuses on causal inference. A current popular research topic is integrating causal inference into deep learning. I am very interested in it and I believe there could be a chance for us to work together on this as well.
 
 **What is your strengths and weaknesses in teaching and research**
 
 - When it comes to teaching, one of my strong points is that I can simplify complex ideas into more manageable and easy-to-understand concepts. I find that using real-world examples and analogies helps make the material more relatable and engaging for students. 
-- As a non-native speaker, I do have an accent in my English, but I like to use slides and figures to make my explanations clearer.
+- However, as a non-native speaker, I do have an accent /ˈækˌsɛnt/ in my English, but I like to use slides and figures to make my explanations clearer.
 
-- Regarding research, my strengths lie in my creative problem-solving skills. I enjoy taking on tough challenges and discovering novel methods to solve them. My persistence also helps me overcome any difficulties or challenges that I may encounter in my research.
+- Regarding research, I enjoy taking on tough challenges and discovering novel methods to solve them. My persistence also helps me overcome any difficulties or challenges that I may encounter in my research.
 
 - On the flip side, one of my research weaknesses is that I can sometimes get too focused on a specific aspect, which narrows my perspective. To solve this, I actively seek feedback from colleagues and participate in conferences and workshops to widen my understanding and gain insights from other experts in my field.
 
 **What do you see as the role of computer science in a liberal arts setting?**
 
-In a liberal arts setting, computer science benefits both CS majors and students from other fields. CS majors get a broader range of knowledge, which can inspire their studies, like in the popular research area of computer science education. Meanwhile, students from other majors can use computer science as a powerful tool in today's digital world. So, having a computer science department is essential in a liberal arts school.
+In a liberal /lib(ə)rəl/ arts setting, computer science benefits both CS majors and students from other fields. CS majors get a broader range of knowledge, which can inspire their studies, like in the popular research area of computer science education. Meanwhile, students from other majors can use computer science as a powerful tool in today's digital world. So, having a computer science department is essential in a liberal arts school.
 
 ### Research Grants related question
 
@@ -160,7 +164,7 @@ In a liberal arts setting, computer science benefits both CS majors and students
 I worked on a proposal submitted by my advisor that eventually received funding from the NSF III program. Specifically, I worked on writing the Proposed Research Objectives and Methodology section, which detailed our past research accomplishments and future plans.
 
 **Do you intend to apply for grants? Where?**
-- Research Experiences for Undergraduates (REU) program at NSF
+- I plan to apply for the NSF REU grant. Research Experiences for Undergraduates (REU) program at NSF, The REU projects usually runs during the summer for 8 weeks. And the PIs need to design the projects and recruit undergraduates from both inside and outside the universities.  
 - IIS: Information Integration and Informatics (NSF/III)
 - Principles and Practice of Scalable Systems (NSF/PPoSS)
 - Computational and Data-Enabled Science and Engineering (NSF/CDS&E)
@@ -175,9 +179,11 @@ I worked on a proposal submitted by my advisor that eventually received funding 
 
 - Are there any High-Performance Computing resources I can obtain as a new faculty member? 
 
-- Dr. Hunt, I saw you have rich experience on working with students on independent-studies or capstone projects. Could you give some advise on how to advising students.
-
 - How many students are in the CS department and how large of the class size is?
+
+- Are there any research grants available for faculty at UWL? I know Dr. Wang received a UWL Faculty Research Grant.
+
+- Dr. Hunt, I saw you have rich experience on working with students on independent-studies or capstone projects. Could you give some advise on how to advising students.
 
 
 
