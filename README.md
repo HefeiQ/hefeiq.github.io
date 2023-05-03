@@ -1,3 +1,5 @@
+Sure, here's a possible README for your personal website repo:
+
 # Yong's Personal Website using Jekyll
 
 This repository contains the code for my personal website built using Jekyll. The design is based on the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme, which was forked and customized to fit my needs.
