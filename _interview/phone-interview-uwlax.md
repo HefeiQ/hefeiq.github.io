@@ -85,10 +85,11 @@ With my industry experience I am excited about teaching the courses like:
 - CS 227 Competitive Programming
 - CS 342 Software Testing Techniques
 - CS 364 Introduction to Database Management Systems
+- CS 464/564 Advanced Database Management Systems
 - CS 421/521 Programming Language Concepts
 - CS 470/570 Parallel and Distributed Computing
 
-Due to my computer science background, I am also willing to teach theoretical computer science courses, such as:
+Due to my computer science background, I am also willing to teach computer science theory courses, such as:
 
 - CS 225 Discrete Computational Structures
 - CS 353 Analysis of Algorithm Complexity
@@ -144,7 +145,7 @@ I noticed that Dr. Mathias /mai sai i s/ is interested in genetic algorithms. Ri
 
 As I found Dr. Sauppe /s au/'s research focuses on causal inference. A current popular research topic is integrating causal inference into deep learning. I am very interested in it and I believe there could be a chance for us to work together on this as well.
 
-**What is your strengths and weaknesses in teaching and research**
+**What is your strengths and weaknesses in teaching and research?**
 
 - When it comes to teaching, one of my strong points is that I can simplify complex ideas into more manageable and easy-to-understand concepts. I find that using real-world examples and analogies helps make the material more relatable and engaging for students. 
 - However, as a non-native speaker, I do have an accent /ˈækˌsɛnt/ in my English, but I like to use slides and figures to make my explanations clearer.
