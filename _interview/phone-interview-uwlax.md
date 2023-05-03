@@ -1,36 +1,35 @@
 ---
 layout: page
-title: Faculty Position
+title: phone interview uwlax
 ---
-["Phone Interview Questions"]({{ 'interview/faculty_phone_interview.pdf' | prepend: '/assets/pdf/' | relative_url }})
 ### Persional questions
 
 **Are you still interested in the position? or Why us? or What attracts you to this position, both in terms of the department and the university as a regional institution?**
 Thanks for asking! I'm really interested in the position for a few reasons.
 
-- First off, I love teaching. It's so rewarding when my students enjoy my courses or when I can help them find jobs or internships. Since teaching is such an important aspect of regional institutions, I think it's a great fit for me.
+- First, I love teaching. It's so rewarding when my students enjoy my courses or when I can help them find jobs or internships. Since teaching always plays an important role in regional institutions, I think it's a great fit for me.
 
-- Secondly, I'm also passionate about research. I've published 7 papers in areas like AI, ML, and Data Mining, and I'd love to get more students involved in these fields. Your department seems to offer a lot of opportunities for students to do research, so I'm excited about continuing my work with undergrads there.
+- Secondly, I'm also enjoy research. I've published 7 papers in areas like AI, ML, and Data Mining, and I'd love to get more students involved in these fields. Your department places a high value on undergraduate research and collaboration, so I'm excited about continuing my work with undergrads there.
 
 - Thirdly, I noticed that the student-to-faculty ratio at UWLax is just 19:1, and 91% of classes have fewer than 50 students. I think that's great because it allows for closer relationships between students and faculty.
 
-- I also really like the size of the department, it's kind of like the CS department at UMB. Everyone here is super friendly, and we're like a family. All the professors know about my research and have given me some great advice on my work. I just love being part of this group. 
+- I really appreciate the smaller size of the department. It's similar to the CS department at UMB, where all the faculty members are friendly, and we feel like a family. Every professor knows about my research and has given me valuable advice. I truly enjoy the atmosphere in such a close-knit group.
 
 **Introduce yourself**
-Hi, I'm Yong Zhuang, and I got my Ph.D. in Computer Science from the University of Massachusetts Boston, where I worked with Dr. Wei Ding. My research interests are pretty broad, covering Machine Learning, Big Data Analysis, Feature Selection, Spatio-temporal Data Analysis, and Time Series Prediction.
+Hello everyone, I'm Yong Zhuang, and I got my Ph.D. in Computer Science and applied ML from the University of Massachusetts Boston, where I worked with Dr. Wei Ding. My research interests are pretty broad, covering Machine Learning, Big Data Analysis, Feature Selection, Spatio-temporal Data Analysis, and Time Series Prediction. I've published 7 papers in these area.
 
-In addition to research, I've been a teaching assistant for a bunch of courses, like Artificial Intelligence, Big Data Analysis, and Introduction to Computing. I also worked at the student success center, helping disadvantaged students succeed in tough courses like Theory of Computation, Data Structures, and Algorithms.
+In addition to research, I've been a teaching assistant for a bunch of courses, like Artificial Intelligence, Big Data Analysis, and Introduction to Computing. I also worked at the student success center as an instructor, helping disadvantaged students succeed in tough courses like Theory of Computation, Data Structures, and Algorithms.
 
-I really enjoy working with students and colleagues on both teaching and research.
+Before my study at UMASS Boston, I worked as a software engineer for five years. That job gave me tons of experience in application design, data management, code design, debugging, and testing, which has been super helpful for my teaching and research. I've also worked as a machine learning scientist and engineer during internships and after my PhD program. This has given me valuable experience in designing machine learning systems.
 
-Before going to UMASS Boston, I worked as a software engineer for five years. That job gave me tons of experience in application design, data management, code design, debugging, and testing, which has been super helpful for my teaching and research.
+I look forward to being a part of this community and making meaningful contributions to the department.
 
 **Brief Describe your research**
-My research primarily focuses on long-term predictive modeling of big spatio-temporal data. This field presents unique challenges because spatio-temporal modeling deals with nonlinear correlations over time and space, making long-term predictions particularly difficult due to the rapid accumulation of errors.
+My research majorly focuses on long-term predictive modeling of big spatio-temporal data. This field presents unique challenges because spatio-temporal modeling deals with nonlinear correlations over time and space, making long-term predictions particularly difficult due to the rapid accumulation of errors.
 
-One of my significant contributions is identifying subsets of features that are both highly predictable and interpretable. This approach improves long-term prediction performance through ensemble learning on selected features. I collaborated with Professor Islam from Tufts university to designed a new multi-Markov-Blankets-based ensemble model called Galaxy, which we presented at ICBK 2018. This model has been applied to long-term extreme rainfall forecasting and helped us identify cold waves along the Asian coast as a significant precursor to U.S. surface weather, confirmed by climate experts.
+One of my contributions is identifying subsets of features that are both highly predictable and explainable. I collaborated with Professor Islam from Tufts university to design a new multi-Markov-Blankets-based ensemble model called Galaxy, which we presented at ICBK 2018. This approach improves long-term extreme rainfall  prediction performance through ensemble learning on selected predictable and explainable features and helped us identify cold waves along the Asian coast as a significant precursor to U.S. surface weather.
 
-I've also looked into how we can extend the prediction horizon of time series in chaotic systems.I proposed a new recurrent architecture and accompanying training regime on deep recurrent models, extending the prediction horizon by more than 20%. This work was presented at the IEEE International Conference on Data Mining (ICDM) in 2022. Additionally, I collaborated with Professor Morabito of the UMASS Lowell to design a spatio-temporal recurrent neural network for predicting crime hotspots, which was published in ICBK 2017.
+I've also looked into how we can extend the prediction horizon of time series in chaotic systems. I proposed a new recurrent architecture and corresponding training approach on deep recurrent models, extending the prediction horizon by more than 20%. This work was presented at the IEEE International Conference on Data Mining (ICDM) in 2022. Additionally, I collaborated with a team at UMASS Lowell to design a spatio-temporal deep neural network for predicting crime hotspots, which was published in ICBK 2017.
 
 So, as you can see, my research interests span various aspects of spatio-temporal data and predictive modeling. I'm excited to continue exploring these areas and find innovative solutions to their challenges.
  
@@ -38,7 +37,7 @@ So, as you can see, my research interests span various aspects of spatio-tempora
 
 My dissertation is mainly focuses on long-term predictive modeling of big spatio-temporal data. This field presents unique challenges because spatio-temporal modeling deals with nonlinear correlations over time and space. With the dimensionality of the time and space measurements increasing, the number of elements potentially contributing to a target sharply grows, making the target's long-term behavior highly complex, chaotic, highly dynamic, and hard to predict. So my study focus on two challenges:
 
- - big dimensionality: feature selection to identify the most relevant and meaningful features from the original Spatio-temporal feature space in order to improve learning accuracy, reduces the computation time, and facilitates an enhanced understanding for the learning model and data. 
+ - big dimensionality: I use feature selection to identify the most relevant and meaningful features from the original Spatio-temporal feature space in order to improve learning accuracy, reduces the computation time, and facilitates an enhanced understanding for the learning model and data. 
 
  - Second, forecasting long-term dynamics in nonlinear chaotic systems can be pretty tricky because of how sensitive they are to initial conditions and how errors can grow exponentially. So, I proposed a new recurrent architecture called error trajectory tracking to better evaluate the consequences of local errors when modeling nonlinear systems. This model can help us make more reliable predictions further into the future.
 
@@ -69,7 +68,8 @@ I also served as a teaching assistant for five semesters in courses such as Arti
 
 **What courses would you like to teach?**
 
-With my industry experience and research background, I can teach a wide range of computer science courses at both the undergraduate and graduate levels. For example, I can teach:
+With my industry experience I am excited about teaching following courses:
+
 - CS 101 Introduction to Computing
 - CS 103 Elementary Database Principles and Design
 - CS 115 Introduction to Python Programming
@@ -78,23 +78,31 @@ With my industry experience and research background, I can teach a wide range of
 - CS 340 Software Design III: Abstract Data Types
 - CS 341 Software Design IV: Software Engineering
 - CS 202 Introduction to Web Design
+- CS 402/502 Web Application Development
 - CS 224 Introduction to Programming Language
-- CS 225 Discrete Computational Structures
 - CS 227 Competitive Programming
 - CS 342 Software Testing Techniques
-- CS 353 Analysis of Algorithm Complexity
 - CS 364 Introduction to Database Management Systems
-- CS 402/502 Web Application Development
 - CS 421/521 Programming Language Concepts
-- CS 452/552 Artificial Intelligence
+- CS 470/570 Parallel and Distributed Computing
+
+Due to my computer science background, I am also willing to teach theoretical computer science courses, such as:
+
+- CS 225 Discrete Computational Structures
+- CS 353 Analysis of Algorithm Complexity
 - CS 453/553 Introduction to Theory of Computation
+
+Because of my expertise in machine learning and data mining, I am excited about teaching courses like:
+
+- CS 452/552 Artificial Intelligence
 - CS 454/554 Digital Image Processing
 - CS 457/557 Machine Learning
 - CS 461/561 Introduction to Data Science
 - CS 476/576 Data Visualization
-- CS 419/519 Topics in Computer Science
 
-I'm also really excited about designing new courses to meet the needs of students and the department.
+I'm also really excited about designing new courses to meet the needs of students and the department and teach:
+
+- CS 419/519 Topics in Computer Science
 
 **What other types of courses would you be interested in developing and teaching?**
 
@@ -152,6 +160,12 @@ In a liberal arts setting, computer science benefits both CS majors and students
 I worked on a proposal submitted by my advisor that eventually received funding from the NSF III program. Specifically, I worked on writing the Proposed Research Objectives and Methodology section, which detailed our past research accomplishments and future plans.
 
 **Do you intend to apply for grants? Where?**
+- Research Experiences for Undergraduates (REU) program at NSF
+- IIS: Information Integration and Informatics (NSF/III)
+- Principles and Practice of Scalable Systems (NSF/PPoSS)
+- Computational and Data-Enabled Science and Engineering (NSF/CDS&E)
+- CCF: Communications and Information Foundations (NSF/CIF)
+- Smart Health and Biomedical Research in the Era of Artificial Intelligence and Advanced Data Science (SCH)
 
 
 **Other questions**
