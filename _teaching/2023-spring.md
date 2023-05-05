@@ -2,7 +2,7 @@
 layout: default
 course_name: Google Map Web Application Development
 course_number: GMWAD
-semester: 2023 Spring
+semester: Spring 2023
 semester_index: 2023_1
 affiliation: heros
 role: Instructor
