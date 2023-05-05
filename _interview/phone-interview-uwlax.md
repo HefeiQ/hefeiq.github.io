@@ -24,7 +24,7 @@ Before my study at UMASS Boston, I worked as a software engineer for five years.
 
 I look forward to being a part of this community and making meaningful contributions to the department.
 
-**Brief Describe your research**
+**Brief describe your research**
 My research majorly focuses on long-term predictive modeling of big spatio-temporal data. This field presents unique challenges because spatio-temporal modeling deals with nonlinear correlations over time and space, making long-term predictions particularly difficult due to the rapid accumulation of errors.
 
 One of my contributions is identifying subsets of features that are both highly predictable and explainable. I collaborated with Professor Islam from Tufts university to design a new multi-Markov-Blankets-based ensemble model called Galaxy, which we presented at ICBK 2018. This approach improves long-term extreme rainfall  prediction performance through ensemble learning on selected predictable and explainable features and helped us identify cold waves along the Asian coast as a significant precursor to U.S. surface weather.
