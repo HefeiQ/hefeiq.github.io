@@ -4,7 +4,7 @@ course_name: Google Map Web Application Development
 course_number: GMWAD
 semester: Spring 2023
 semester_index: 2023_1
-affiliation: heros
+affiliation: lex
 role: Instructor
 ---
 In this course, students will learn how to develop responsive and interactive Google-Map-Based web applications. 
