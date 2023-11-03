@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>
+
+ Hefei Qiu
+
+
+  | Contrastive Learning of Sentence Representations
+
+</title>
+<meta name="description" content="The personal website of Hefei Qiu.
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐉</text></svg>">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="canonical" href="/projects/contrastive_learning_of_sentence_representations/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/assets/js/distillpub/overrides.js"></script>
+    
+  </head>
+
+  <d-front-matter>
+    <script async type="text/json">{
+      "title": "Contrastive Learning of Sentence Representations",
+      "description": "A novel approach which applies contrastive learning to learn universal sentence representations on top of pre-trained language models.",
+      "published": "2021",
+      "authors": [
+        
+        {
+          "author": "Hefei Qiu",
+          "authorURL": "https://hefeiq.github.io",
+          "affiliations": [
+            {
+              "name": "UMASS Boston",
+              "url": ""
+            }
+          ]
+        },
+
+        {
+          "author": "Wei Ding",
+          "authorURL": "https://www.cs.umb.edu/~ding/",
+          "affiliations": [
+            {
+              "name": "UMASS Boston",
+              "url": ""
+            }
+          ]
+        },
+        
+        {
+          "author": "Ping Chen",
+          "authorURL": "https://www.cs.umb.edu/~pchen/",
+          "affiliations": [
+            {
+              "name": "UMASS Boston",
+              "url": ""
+            }
+          ]
+        }
+      
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
+
+  <body class=" ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar navbar-expand-md grey lighten-5 z-depth-1 -->
+    
+    <nav id="navbar" class="navbar navbar-light navbar-expand-md grey lighten-3 z-depth-1 sticky-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="https://hefeiq.github.io/">
+       <span class="font-weight-bold blue-color">Hefei Qiu</span>
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          <!--
+          <li class="nav-item ">
+              <a class="nav-link" href="/news/">
+                News
+              </a>
+          </li>
+          -->
+          
+          <!--       
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                Teaching
+              </a>
+          </li>
+          -->
+          
+          
+          <li class="nav-item ">
+            <a class="nav-link" href="/projects/">
+              projects
+              
+            </a>
+        </li>
+            
+        
+        <!--
+        <li class="nav-item ">
+            <a class="nav-link" href="/publications/">
+              publications
+              
+            </a>
+        </li>
+        -->
+
+        <!--
+        <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              resume & cv
+              
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+
+              <a class="dropdown-item" href=""><a class="nav-link" href="/assets/pdf/curriculum_vitae.pdf" target="_blank">Curriculum Vita</a></a>
+
+              <a class="dropdown-item" href=""><a class="nav-link" href="/assets/pdf/resume.pdf" target="_blank">Resume</a></a>
+
+            </div>
+        </li>
+        -->          
+
+        <!--
+        <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              services
+              
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+
+              <a class="dropdown-item" href=""><a class="nav-link" href="https://kdl-umb.github.io" target="_blank">KDLab</a></a>
+
+              <a class="dropdown-item" href=""><a class="nav-link" href="https://ai-umb.github.io" target="_blank">AI-Association</a></a>
+
+              <a class="dropdown-item" href=""><a class="nav-link" href="https://kdl-umb.github.io/tech-writing" target="_blank">Tech-writing Seminar</a></a>
+
+            </div>
+        </li>
+        -->
+
+        
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="/assets/pdf/curriculum_vitae.pdf"
+            target="_blank">
+            cv
+          </a>
+        </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="/assets/pdf/resume.pdf"
+            target="_blank">
+            resume
+          </a>
+        </li> -->
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="post distill">
+
+      <d-title>
+        <h1>Contrastive Learning of Sentence Representations</h1>
+        <p>A novel approach which applies contrastive learning to learn universal sentence representations on top of pre-trained language models.</p>
+      </d-title>
+
+      <d-byline></d-byline>
+
+      <d-article>
+        <p>The work on this project has published in ICON 2021. Take a look at <a href="/assets/pdf/hefei2021contrastive/ICON_2021_Submission.pdf">“Contrastive Learning of Sentence Rrepresentations”</a> for more details.</p>
+<h3 id="objective">Objective</h3>
+<p>Learning sentence representations which capture rich semantic meanings has been crucial for many NLP tasks. Pre-trained language models such as BERT have achieved great success in NLP, but sentence embeddings extracted directly from these models do not perform well without fine-tuning. We aim to learn universal sentence representations which better encode semantic.</p>
+
+<h3 id="proposed-model">Proposed Model</h3>
+<p><img class="float-left w-75" src="/assets/img/contrastive_sentence/contrastive_sent.jpg" /></p>
+
+<p></p>
+
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2023 Yong  Zhuang.
+    
+    
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <d-bibliography src="/assets/bibliography/hf/hf.bib">
+  </d-bibliography>
+
+</html>
